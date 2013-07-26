@@ -1,5 +1,13 @@
 .is{
+  &.hero{
+    font-size: 5rem;
+  }
+
   &.display{
-    font-size: 6em;
+    font-family: $type-bold;
+  }
+
+  &.centered{
+    text-align: center;
   }
 }

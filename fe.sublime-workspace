@@ -1,0 +1,761 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"output",
+				"output_style"
+			],
+			[
+				"t",
+				"transform"
+			],
+			[
+				"pull",
+				"pulledConent"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": ".todo",
+			"settings":
+			{
+				"buffer_size": 102,
+				"line_ending": "Unix",
+				"name": "add responsive hgroup"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"set syntax sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"package",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"angular",
+				"AngularJS: Look Up Definition"
+			],
+			[
+				"inste",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"angul",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packages",
+				"Package Control: Disable Package"
+			],
+			[
+				"syntax",
+				"Set Syntax: Sass"
+			],
+			[
+				"han",
+				"HTML2Haml: Convert selection"
+			],
+			[
+				"syntax sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"conver",
+				"HTML2Haml: Convert selection"
+			],
+			[
+				"ham",
+				"HTML2Haml: Convert selection"
+			],
+			[
+				"syntaxsass",
+				"Set Syntax: Sass"
+			]
+		],
+		"width": 311.0
+	},
+	"console":
+	{
+		"height": 167.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/user/.zshrc",
+		"/Users/user/Dropbox/Web/sethjg/Gemfile.lock",
+		"/Users/user/Dropbox/Web/kgi/Gemfile",
+		"/Users/user/Dropbox/Web/sethjg/Gemfile",
+		"/Users/user/Dropbox/Web/sethjgre/Gemfile",
+		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/modules/_nav.scss",
+		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/modules/_view-animation.scss",
+		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/modules/_nav",
+		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/master/_body.scss",
+		"/Users/user/Dropbox/Web/sethjgre/source/javascripts/alt.js",
+		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/modules/_belief.scss",
+		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/modules/_intro.scss",
+		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/master/motion.scss",
+		"/Users/user/Dropbox/Web/sethjgre/source/manifesto.html.haml",
+		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/master/_grid.scss",
+		"/Users/user/Dropbox/Web/sethjgre/source/javascripts/all.js",
+		"/Users/user/Dropbox/Web/sethjgre/source/layouts/test.haml",
+		"/Users/user/Dropbox/Web/sethjgre/source/layouts/playground.haml",
+		"/Users/user/Dropbox/Web/sethjgre/source/home.html.haml",
+		"/Users/user/Dropbox/Web/sethjgre/source/index.html.haml",
+		"/Users/user/Dropbox/Web/sethjgre/source/test.html",
+		"/Users/user/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/playground.css.scss",
+		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/modules/view-animation.scss",
+		"/Users/user/Dropbox/Web/sethjgre/config.rb",
+		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/app.css.scss",
+		"/Users/user/Dropbox/Web/sethjgre/build/javascripts/all.js",
+		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/master/_variables.scss",
+		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/modules/_loading.scss",
+		"/Users/user/Dropbox/Web/sethjgre/source/layouts/layout.haml",
+		"/Users/user/Dropbox/Web/sethjgre/source/robots.txt",
+		"/Users/user/Dropbox/Web/sethjgre/source/layouts/index.html.haml",
+		"/Users/user/Dropbox/Web/sethjgre/source/hello.html.haml",
+		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/_settings.scss",
+		"/Users/user/Dropbox/Web/sethjgre/build/javascripts/test.js",
+		"/Users/user/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/user/Dropbox/Web/sethjgre/sethjgre.sublime-project",
+		"/Users/user/Dropbox/Web/sethjgre/public/app.css/modules/view-animation.css.map",
+		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/style.css.scss",
+		"/Users/user/Dropbox/Web/sethjgre/build/stylesheets/master/grid.css",
+		"/Users/user/Dropbox/Web/sethjgre/public/app.css/app.css",
+		"/Users/user/Dropbox/Web/sethjgre/build/index.html",
+		"/Users/user/Dropbox/Web/sethjgre/source/index.html",
+		"/Users/user/Dropbox/Web/sethjgre/public/app.css/app.css.css",
+		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/master/variables.scss",
+		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/master/grid.scss",
+		"/Users/user/Dropbox/Web/sethjgre/build/stylesheets/master/variables.css",
+		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/modules/intro.scss",
+		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/modules/belief.scss",
+		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/modules/loading.scss",
+		"/Users/user/Dropbox/Web/sethjgre/stylesheets/modules/loading.scss",
+		"/Users/user/Dropbox/Web/sethjgre/loading.scss",
+		"/Users/user/Dropbox/Web/sethjgre/body{",
+		"/Users/user/Dropbox/Web/sethjgre/source/javascripts/test.js",
+		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/master/backgrounds.scss",
+		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/modules/is.scss",
+		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/master/is.scss",
+		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/modules/variables.scss",
+		"/Users/user/Dropbox/Web/sethjg/config.rb",
+		"/Users/user/Dropbox/Web/angular-phonecat/config/testacular.conf.js",
+		"/Users/user/Dropbox/Web/sethjg/source/css/modules/_bills.scss",
+		"/Users/user/Dropbox/Web/sethjg/source/bills/ylcaf.html.haml",
+		"/Users/user/Dropbox/Web/sethjg/source/index.html.haml",
+		"/Users/user/Dropbox/Web/sethjg/source/index-hold.html.haml",
+		"/Users/user/Dropbox/Web/sethjg/source/layouts/boiler.haml",
+		"/Users/user/Dropbox/Web/sethjg/statements",
+		"/Users/user/Dropbox/Web/sethjg/Gemfile2.lock",
+		"/Users/user/Dropbox/Web/sethjg/source/css/_grid-settings.scss",
+		"/Users/user/Dropbox/Web/sethjg/source/css/modules/_header.scss",
+		"/Users/user/Dropbox/Web/sethjg/source/css/modules/_icons.scss",
+		"/Users/user/Dropbox/Web/sethjg/source/css/modules/_thePage.scss",
+		"/Users/user/Dropbox/Web/sethjg/source/css/_layout.scss",
+		"/Users/user/Dropbox/Web/sethjg/source/css/app.css.scss",
+		"/Users/user/Dropbox/Web/sethjg/source/js/script.js",
+		"/Users/user/Dropbox/Web/sethjg/source/layouts/default.haml",
+		"/Users/user/Dropbox/Web/sethjg/source/wrote/2013-02-13-codingessays.html.markdown",
+		"/C/Users/sgore/Dropbox/Web/sethjg/Gemfile.lock",
+		"/Users/user/Dropbox/Web/candinope/source/css/_fonts.scss",
+		"/Users/user/Dropbox/Web/sethjg/source/css/_entypo.scss",
+		"/Users/user/Library/Application Support/Sublime Text 2/Packages/User/Ruby Haml.sublime-settings",
+		"/Users/user/Dropbox/Web/sethjg/source/partials/_boiler.haml",
+		"/Users/user/Dropbox/Web/sethjg/source/layouts/article.haml",
+		"/Users/user/Dropbox/Web/sethjg/source/partials/_header.haml",
+		"/Users/user/Dropbox/Web/sethjg/source/css/_colors.scss",
+		"/Users/user/Dropbox/Web/sethjg/source/css/modules/_logo.scss",
+		"/Users/user/Dropbox/Web/sethjg/source/css/_constants.scss",
+		"/Users/user/Dropbox/Web/sethjg/source/css/_solarized.scss",
+		"/Users/user/Dropbox/Web/sethjg/source/layouts/blank.haml",
+		"/Users/user/Dropbox/Web/sethjg/source/partials/_footer.haml",
+		"/Users/user/Dropbox/Web/candinope/source/css/_reponsiveText.scss",
+		"/Users/user/Dropbox/Web/candinope/source/css/labs/_squares.scss",
+		"/Users/user/Dropbox/Web/candinope/source/layouts/default.haml",
+		"/Users/user/Dropbox/Web/candinope/source/layouts/boiler.haml",
+		"/Users/user/Dropbox/Web/candinope/source/css/_layout.scss",
+		"/Users/user/Dropbox/Web/candinope/source/partials/_footer.haml",
+		"/Users/user/Dropbox/Web/candinope/source/css/_settings.css.scss",
+		"/Users/user/Dropbox/Web/candinope/source/css/_view.scss",
+		"/Users/user/Dropbox/Web/candinope/source/says/2013-02-13-codingessays.html.markdown",
+		"/Users/user/Dropbox/Web/candinope/source/layouts/says.haml",
+		"/Users/user/Dropbox/Web/candinope/source/says/2013-01-14-learning-and-not.html.markdown",
+		"/Users/user/Dropbox/Web/candinope/source/says/2013-02-13-the-universal-browser.html.markdown",
+		"/Users/user/Dropbox/Web/candinope/source/layouts/article.haml",
+		"/Users/user/Dropbox/Web/candinope/Gemfile.lock",
+		"/Users/user/Dropbox/Web/candinope/Gemfile",
+		"/Users/user/Dropbox/Web/candinope/source/apple-touch-icon-72x72-precomposed.png",
+		"/Users/user/Dropbox/Web/candinope/source/humans.txt",
+		"/Users/user/Dropbox/Web/candinope/source/desktop.html.haml",
+		"/Users/user/Dropbox/Web/candinope/source/css/_footer.scss",
+		"/Users/user/Dropbox/Web/candinope/source/blah.html",
+		"/Users/user/Dropbox/Web/candinope/source/fonts/_settings.scss",
+		"/Users/user/Dropbox/Web/candinope/source/who.html.erb",
+		"/Users/user/Dropbox/Web/candinope/source/layouts/nopadding.haml",
+		"/Users/user/Dropbox/Web/candinope/source/js/script.js",
+		"/Users/user/Dropbox/Web/candinope/source/desktop",
+		"/Users/user/Dropbox/Web/candinope/source/css/_solarized.scss",
+		"/Users/user/Dropbox/Web/candinope/source/labs/siphon.js",
+		"/Users/user/Dropbox/Web/candinope/source/siphon.haml",
+		"/Users/user/Dropbox/Web/candinope/source/css/labs/_labs.scss",
+		"/Users/user/Dropbox/Web/candinope/source/beaker.html.haml",
+		"/Users/user/Dropbox/Web/candinope/source/js/libs/jquery.fittext.js",
+		"/Users/user/Dropbox/Web/candinope/source/css/labs/_siphon.scss",
+		"/Users/user/Dropbox/Web/candinope/source/says/index.html.erb",
+		"/Users/user/Dropbox/Web/distraction/stylesheets/writing"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"animate-top-level",
+			"animate",
+			"view",
+			"angular",
+			"grayscale(0.5)",
+			".is.centered",
+			"NAME-YOUR-ANIMATION ",
+			"body",
+			"lib",
+			"lbv8",
+			".l-inline.l-margin-left.t-right",
+			"middleman-core",
+			"fo",
+			"ship",
+			"is",
+			"selector",
+			"elem"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": ".todo",
+					"settings":
+					{
+						"buffer_size": 102,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								101,
+								101
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_name": "add responsive hgroup",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"text-indent": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": "warning",
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"asi": false,
+								"bitwise": true,
+								"boss": false,
+								"browser": true,
+								"curly": true,
+								"debug": false,
+								"devel": false,
+								"eqeqeq": true,
+								"eqnull": false,
+								"es5": false,
+								"esnext": false,
+								"evil": false,
+								"expr": false,
+								"forin": true,
+								"funcscope": false,
+								"globalstrict": false,
+								"immed": true,
+								"indent": 2.0,
+								"iterator": false,
+								"jquery": true,
+								"lastsemic": false,
+								"latedef": true,
+								"laxbreak": false,
+								"laxcomma": false,
+								"loopfunc": false,
+								"multistr": false,
+								"newcap": true,
+								"noarg": true,
+								"node": false,
+								"noempty": false,
+								"nonew": true,
+								"nonstandard": false,
+								"onecase": false,
+								"onevar": true,
+								"plusplus": false,
+								"predef":
+								[
+									"confirm",
+									"alert",
+									"jasmine",
+									"spyOn",
+									"it",
+									"console",
+									"describe",
+									"expect",
+									"beforeEach",
+									"waits",
+									"waitsFor",
+									"runs"
+								],
+								"proto": false,
+								"prototypejs": false,
+								"regexdash": false,
+								"regexp": true,
+								"scripturl": false,
+								"shadow": false,
+								"smarttabs": true,
+								"strict": true,
+								"sub": false,
+								"supernew": false,
+								"trailing": true,
+								"undef": true,
+								"white": false,
+								"withstmt": false
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 0.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.380158918406,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 142.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"nav",
+				"sethjgre/source/stylesheets/modules/_nav.scss"
+			],
+			[
+				"manifes",
+				"sethjgre/source/manifesto.html.haml"
+			],
+			[
+				"be",
+				"sethjgre/source/stylesheets/modules/_belief.scss"
+			],
+			[
+				"motion",
+				"sethjgre/source/stylesheets/master/motion.scss"
+			],
+			[
+				"intro",
+				"sethjgre/source/stylesheets/modules/_intro.scss"
+			],
+			[
+				"home",
+				"sethjgre/source/home.html.haml"
+			],
+			[
+				"all",
+				"sethjgre/source/javascripts/all.js"
+			],
+			[
+				"alt",
+				"sethjgre/source/javascripts/alt.js"
+			],
+			[
+				"layout",
+				"sethjgre/source/layouts/layout.haml"
+			],
+			[
+				"animatio",
+				"sethjgre/source/stylesheets/modules/_view-animation.scss"
+			],
+			[
+				"mani",
+				"sethjgre/source/manifesto.html.haml"
+			],
+			[
+				"html",
+				"sethjgre/source/test.html"
+			],
+			[
+				"manf",
+				"sethjgre/source/manifesto.html.haml"
+			],
+			[
+				"test",
+				"sethjgre/source/layouts/test.haml"
+			],
+			[
+				"inde",
+				"sethjgre/source/index.html.haml"
+			],
+			[
+				"all.js",
+				"sethjgre/source/javascripts/all.js"
+			],
+			[
+				"index",
+				"sethjgre/source/index.html.haml"
+			],
+			[
+				"pro",
+				"sethjgre/sethjgre.sublime-project"
+			],
+			[
+				"lay",
+				"sethjgre/source/layouts/layout.haml"
+			],
+			[
+				"lyaout",
+				"sethjgre/source/layouts/layout.haml"
+			],
+			[
+				"grid",
+				"sethjgre/source/stylesheets/master/_grid.scss"
+			],
+			[
+				"app.scss",
+				"sethjgre/source/stylesheets/app.css.scss"
+			],
+			[
+				"settings",
+				"sethjgre/source/stylesheets/_settings.scss"
+			],
+			[
+				"config",
+				"sethjgre/config.rb"
+			],
+			[
+				"variables",
+				"sethjgre/source/stylesheets/master/variables.scss"
+			],
+			[
+				"variab",
+				"sethjgre/build/stylesheets/master/variables.css"
+			],
+			[
+				"ind",
+				"sethjgre/source/index.html.haml"
+			],
+			[
+				"back",
+				"source/stylesheets/master/backgrounds.scss"
+			],
+			[
+				"bel",
+				"source/stylesheets/modules/belief.scss"
+			],
+			[
+				"belief",
+				"source/stylesheets/modules/belief.scss"
+			],
+			[
+				"css/",
+				"sethjg/build/css/app.css"
+			],
+			[
+				"says/",
+				"says/2013-02-13-the-universal-browser.html.markdown"
+			],
+			[
+				"sy",
+				"layouts/says.haml"
+			],
+			[
+				"deskto",
+				"desktop.html.haml"
+			],
+			[
+				"layouts/",
+				"layouts/article.haml"
+			],
+			[
+				"_square",
+				"css/labs/_squares.scss"
+			],
+			[
+				"defa",
+				"layouts/default.haml"
+			],
+			[
+				"boil",
+				"layouts/boiler.haml"
+			],
+			[
+				"footer",
+				"css/_footer.scss"
+			],
+			[
+				"",
+				"blah.html"
+			],
+			[
+				"sett",
+				"fonts/_settings.scss"
+			],
+			[
+				"who",
+				"who.html.erb"
+			],
+			[
+				"no",
+				"layouts/nopadding.haml"
+			],
+			[
+				"sc",
+				"js/script.js"
+			],
+			[
+				"sip",
+				"siphon.haml"
+			],
+			[
+				"beaker",
+				"beaker.html.haml"
+			],
+			[
+				"view",
+				"css/_view.scss"
+			],
+			[
+				"labs",
+				"css/labs/_labs.scss"
+			],
+			[
+				"siphon",
+				"siphon.haml"
+			],
+			[
+				".js",
+				"js/libs/jquery.fittext.js"
+			],
+			[
+				"sipho",
+				"labs/siphon.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/user/Dropbox/Web/angularjs/angularjs.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true
+}
