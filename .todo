@@ -1,5 +1,12 @@
-add responsive hgroup
-  H1.is.display poses a problem
 remove FOUT
-add pages to header
 add backgrounds
+
+HACKEDITDAY//SHAME.CSS//DESIGNERCOMPLAINTS
+mixin for mailchimp fields instead of declarative classes
+	fix submit button width — need to follow width of column not content
+transfer all analytics & dependencies to grunt or individual js
+	bugherd feedback
+	google analytics
+	fonts.com
+		webfonts
+		FOUT

@@ -1,6 +1,14 @@
 .is{
   &.hero{
-    font-size: 5rem;
+
+  	font-size: 3rem;
+  	margin: 5rem 0;
+
+  	@media #{$small}{
+    	font-size: 5rem;
+	}
+
+
   }
 
   &.display{
