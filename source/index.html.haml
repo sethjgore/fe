@@ -13,17 +13,24 @@ title: Welcome to Middleman
 .row
   .small-8.columns.small-centered
     %h1.panel.is.centered ACTIVISM + REASON
-// EMAIL SUBSCRIPTION
-.row
-  .small-12.columns
-    %form{:action => "submit"}
-      .row
-        .small-8.columns
-          %h2 
-            %input{:type => "text", :placeholder => "Email"}
-        .small-4.columns
-          %h2 
-            %a.button.prefix{:href => "#"} Join Now
+
+/ Begin MailChimp Signup Form
+#mc_embed_signup.row
+  %form#mc-embedded-subscribe-form.validate{:action => "http://facundoelement.us2.list-manage.com/subscribe/post?u=3de55524557b0c6ca0b410f49&amp;id=9ddac7376d", :method => "post", :name => "mc-embedded-subscribe-form", :novalidate => "", :target => "_blank"}
+    .mc-field-group.small-8.columns
+      %label{:for => "mce-EMAIL"}
+      %h2
+        %input#mce-EMAIL.required.email{:name => "EMAIL", :type => "email", :value => "Email"}
+    #mce-responses.clear
+      #mce-error-response.response{:style => "display:none"}
+      #mce-success-response.response{:style => "display:none"}
+    .small-4.columns
+      %h3 
+        %input#mc-embedded-subscribe.button{:name => "subscribe", :type => "submit", :value => "Join Us Today!"}
+/ End mc_embed_signup
+
+
+
 // NAV----------------------//
 .contain-to-grid
   %nav.top-bar
@@ -38,7 +45,7 @@ title: Welcome to Middleman
   .small-12.columns
     %h1.is.hero.display.centered RECENT ACTION 
   .row
-    .small-4.columns
+    .small-12.large-4.columns
       %ul.pricing-table 
         .li.bullet-item 
           %h2 #actnow! We need change.
@@ -48,7 +55,7 @@ title: Welcome to Middleman
           %h2 walk for ASL was a success!
         .li.price
           %h3 Latest One! 
-    .small-8.columns
+    .small-12.large-8.columns
       %h1.is.hero.centered.panel VIDEO HERE  
 
 // COMPANY DOINGS#probablyisgettingyourattn
