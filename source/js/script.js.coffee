@@ -1,2 +1,4 @@
 $ ->
-	console.log "hello"
+	$(window).load ->
+
+		$('html').addClass('isReady')

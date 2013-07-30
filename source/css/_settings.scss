@@ -12,7 +12,7 @@
 //
 
 // This is the default html and body font-size for the base em value.
-// $em-base: 16px;
+$em-base: 20px;
 
 // We use these to control various global styles
 // $body-bg: #fff;
@@ -34,7 +34,7 @@ $body-font-family: $type-regular, "Helvetica", Helvetica, Arial, sans-serif;
 // $success-color: #5da423;
 
 // We use these to make sure border radius matches unless we want it different.
-// $global-radius: 3px;
+$global-radius:  .2em;
 // $global-rounded: 1000px;
 
 // We use these to control inset shadow shiny edges and depressions.
@@ -259,7 +259,7 @@ $header-font-family: $type-light, "Helvetica", Helvetica, Arial, sans-serif;
 // $button-function-factor: 10%;
 
 // We use these to control button border styles.
-// $button-border-width: 1px;
+$button-border-width: 0px;
 // $button-border-style: solid;
 // $button-border-color: darken($primary-color, $button-function-factor);
 
@@ -670,9 +670,9 @@ $header-font-family: $type-light, "Helvetica", Helvetica, Arial, sans-serif;
 //
 
 // We use these to control the background and border styles
-// $panel-bg: darken(#fff, 5%);
-// $panel-border-style: solid;
-// $panel-border-size: 1px;
+$panel-bg: $blue;
+// 	$panel-border-style: solid;
+$panel-border-size: 0px;
 
 // We use this % to control how much we darken things on hover
 // $panel-function-factor: 10%;

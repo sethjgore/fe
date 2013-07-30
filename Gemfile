@@ -1,8 +1,7 @@
 # If you have OpenSSL installed, we recommend updating
 # the following line to use "https"
-source 'http://rubygems.org'
-
-gem "middleman"
+gem "middleman", "~>3.0.12"
 gem "zurb-foundation"
 gem "middleman-livereload"
-gem "ruby18_source_location"
+gem "compass"
+gem "middleman-sprockets", :git => "git://github.com/middleman/middleman-sprockets.git"

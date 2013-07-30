@@ -1,0 +1,7 @@
+.row-introtext{
+	background: image-url('diagmonds.png') center center, $gray;
+}
+
+.intro-text-paragraph{
+	@include transition-delay(1s);
+}

@@ -24,12 +24,122 @@
 	"buffers":
 	[
 		{
-			"file": ".todo",
+			"file": "source/index.html.haml",
 			"settings":
 			{
-				"buffer_size": 102,
+				"buffer_size": 4526,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/css/modulest/_introtext.scss",
+			"settings":
+			{
+				"buffer_size": 161,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/css/modulest/_0transitions.scss",
+			"settings":
+			{
+				"buffer_size": 494,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/css/modulest/_isready.scss",
+			"settings":
+			{
+				"buffer_size": 17,
 				"line_ending": "Unix",
-				"name": "add responsive hgroup"
+				"name": "html.isReady{"
+			}
+		},
+		{
+			"file": "source/css/app.css.scss",
+			"settings":
+			{
+				"buffer_size": 2310,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/layouts/_scripts.haml",
+			"settings":
+			{
+				"buffer_size": 1712,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/js/script.js.coffee",
+			"settings":
+			{
+				"buffer_size": 57,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "$main: rgb(224, 94, 49);\n$blue: rgb(39, 169, ˚∫225;	\n$gray: rgb(42, 61, 72);",
+			"file": "source/css/styleguide/_palette.scss",
+			"file_size": 75,
+			"file_write_time": 130196810470000000,
+			"settings":
+			{
+				"buffer_size": 76,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/user/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 319,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "add new page for 'projects'\nanimations\n	add introduction stint\n	add motion to load\n	add motion to post signup\ndisable submit until email check outs\nerrors in width\n	medium\n		recent action\n		email sub\n	mobile\n		footer\n\nHACKEDITDAY//SHAME.CSS//DESIGNERCOMPLAINTS\nmixin for mailchimp fields instead of declarative classes\n	fix submit button width — need to follow width of column not content\nadd jquery & others to bower dependency\n",
+			"file": ".todo",
+			"file_size": 447,
+			"file_write_time": 130196652130000000,
+			"settings":
+			{
+				"buffer_size": 429,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 185,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gemfile.lock",
+			"settings":
+			{
+				"buffer_size": 2371,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/css/_settings.scss",
+			"settings":
+			{
+				"buffer_size": 31555,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/js/all.js",
+			"settings":
+			{
+				"buffer_size": 41,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -39,6 +149,50 @@
 		"height": 47.0,
 		"selected_items":
 		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"USER",
+				"Preferences: Settings - User"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"haml",
+				"HTML2Haml: Convert file"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"syntax",
+				"Set Syntax: Sass"
+			],
+			[
+				"syntx css",
+				"Set Syntax: CSS"
+			],
+			[
+				"conv",
+				"HTML2Haml: Convert file"
+			],
+			[
+				"ham",
+				"HTML2Haml: Convert file"
+			],
+			[
+				"syntax haml",
+				"Set Syntax: Ruby Haml"
+			],
 			[
 				"set syntax sass",
 				"Set Syntax: Sass"
@@ -68,24 +222,12 @@
 				"Package Control: Install Package"
 			],
 			[
-				"remove",
-				"Package Control: Remove Package"
-			],
-			[
 				"angul",
 				"Preferences: Package Control Settings – Default"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"packages",
 				"Package Control: Disable Package"
-			],
-			[
-				"syntax",
-				"Set Syntax: Sass"
 			],
 			[
 				"han",
@@ -100,19 +242,18 @@
 				"HTML2Haml: Convert selection"
 			],
 			[
-				"ham",
-				"HTML2Haml: Convert selection"
-			],
-			[
 				"syntaxsass",
 				"Set Syntax: Sass"
 			]
 		],
-		"width": 311.0
+		"width": 449.0
 	},
 	"console":
 	{
-		"height": 167.0
+		"height": 167.0,
+		"history":
+		[
+		]
 	},
 	"distraction_free":
 	{
@@ -125,7 +266,35 @@
 	},
 	"file_history":
 	[
+		"/Users/user/Dropbox/Web/fe/config.rb",
+		"/Users/user/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/user/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_motto.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_introtext.scss",
+		"/Users/user/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/user/Dropbox/Web/fe/source/css/app.css.scss",
+		"/Users/user/Dropbox/Web/fe/Gemfile",
+		"/Users/user/Dropbox/Web/fe/Gemfile.lock",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_is.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/styleguide/_palette.scss",
+		"/Users/user/Dropbox/Web/fe/source/layouts/layout.haml",
+		"/Users/user/Dropbox/Web/fe/source/js/all.js",
+		"/Users/user/Dropbox/Web/fe/.todo",
+		"/Users/user/Dropbox/Web/fe/source/index.html.haml",
+		"/Users/user/Dropbox/Web/fe/source/layouts/_scripts.haml",
+		"/Users/user/Dropbox/Web/fe/source/layouts/layout.erb",
+		"/Users/user/Dropbox/Web/fe/source/css/_settings.scss",
+		"/Users/user/Dropbox/Web/fe/source/js/head.js",
+		"/Users/user/Dropbox/Web/fe/build/js/all.js",
+		"/Users/user/Dropbox/Web/fe/build/js/script.js",
+		"/Users/user/Library/Application Support/Google/Chrome Canary/Default/User StyleSheets/secondary.css",
+		"/Users/user/Library/Application Support/Google/Chrome/Default/User StyleSheets/Custom.css",
 		"/Users/user/.zshrc",
+		"/Users/user/.bash_profile",
+		"/Users/user/.zshenv",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_mailchimp.scss",
+		"/Users/user/Dropbox/Web/fe/source/haml.html.haml",
+		"/Users/user/Dropbox/Web/fe/source/haml.html",
 		"/Users/user/Dropbox/Web/sethjg/Gemfile.lock",
 		"/Users/user/Dropbox/Web/kgi/Gemfile",
 		"/Users/user/Dropbox/Web/sethjg/Gemfile",
@@ -224,30 +393,7 @@
 		"/Users/user/Dropbox/Web/candinope/source/css/_view.scss",
 		"/Users/user/Dropbox/Web/candinope/source/says/2013-02-13-codingessays.html.markdown",
 		"/Users/user/Dropbox/Web/candinope/source/layouts/says.haml",
-		"/Users/user/Dropbox/Web/candinope/source/says/2013-01-14-learning-and-not.html.markdown",
-		"/Users/user/Dropbox/Web/candinope/source/says/2013-02-13-the-universal-browser.html.markdown",
-		"/Users/user/Dropbox/Web/candinope/source/layouts/article.haml",
-		"/Users/user/Dropbox/Web/candinope/Gemfile.lock",
-		"/Users/user/Dropbox/Web/candinope/Gemfile",
-		"/Users/user/Dropbox/Web/candinope/source/apple-touch-icon-72x72-precomposed.png",
-		"/Users/user/Dropbox/Web/candinope/source/humans.txt",
-		"/Users/user/Dropbox/Web/candinope/source/desktop.html.haml",
-		"/Users/user/Dropbox/Web/candinope/source/css/_footer.scss",
-		"/Users/user/Dropbox/Web/candinope/source/blah.html",
-		"/Users/user/Dropbox/Web/candinope/source/fonts/_settings.scss",
-		"/Users/user/Dropbox/Web/candinope/source/who.html.erb",
-		"/Users/user/Dropbox/Web/candinope/source/layouts/nopadding.haml",
-		"/Users/user/Dropbox/Web/candinope/source/js/script.js",
-		"/Users/user/Dropbox/Web/candinope/source/desktop",
-		"/Users/user/Dropbox/Web/candinope/source/css/_solarized.scss",
-		"/Users/user/Dropbox/Web/candinope/source/labs/siphon.js",
-		"/Users/user/Dropbox/Web/candinope/source/siphon.haml",
-		"/Users/user/Dropbox/Web/candinope/source/css/labs/_labs.scss",
-		"/Users/user/Dropbox/Web/candinope/source/beaker.html.haml",
-		"/Users/user/Dropbox/Web/candinope/source/js/libs/jquery.fittext.js",
-		"/Users/user/Dropbox/Web/candinope/source/css/labs/_siphon.scss",
-		"/Users/user/Dropbox/Web/candinope/source/says/index.html.erb",
-		"/Users/user/Dropbox/Web/distraction/stylesheets/writing"
+		"/Users/user/Dropbox/Web/candinope/source/says/2013-01-14-learning-and-not.html.markdown"
 	],
 	"find":
 	{
@@ -265,6 +411,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"	",
+			"$global-radius",
+			"blue",
+			"panel",
+			"a-",
+			"panel",
+			"a-",
+			"image",
+			"$global-radius",
+			"radius",
+			"global-radius",
+			"button",
+			"panel",
 			"animate-top-level",
 			"animate",
 			"view",
@@ -304,167 +463,308 @@
 			[
 				{
 					"buffer": 0,
-					"file": ".todo",
+					"file": "source/index.html.haml",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 102,
+						"buffer_size": 4526,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								101,
-								101
+								90,
+								90
 							]
 						],
 						"settings":
 						{
-							"annotations":
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "source/css/modulest/_introtext.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 161,
+						"regions":
+						{
+						},
+						"selection":
+						[
 							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"auto_name": "add responsive hgroup",
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"text-indent": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": "warning",
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
+								161,
+								161
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "source/css/modulest/_0transitions.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 494,
+						"regions":
+						{
+						},
+						"selection":
+						[
 							[
-								110.0
-							],
-							"gjslint_options":
+								189,
+								189
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "source/css/modulest/_isready.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17,
+						"regions":
+						{
+						},
+						"selection":
+						[
 							[
-							],
-							"incomplete_sync": null,
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"asi": false,
-								"bitwise": true,
-								"boss": false,
-								"browser": true,
-								"curly": true,
-								"debug": false,
-								"devel": false,
-								"eqeqeq": true,
-								"eqnull": false,
-								"es5": false,
-								"esnext": false,
-								"evil": false,
-								"expr": false,
-								"forin": true,
-								"funcscope": false,
-								"globalstrict": false,
-								"immed": true,
-								"indent": 2.0,
-								"iterator": false,
-								"jquery": true,
-								"lastsemic": false,
-								"latedef": true,
-								"laxbreak": false,
-								"laxcomma": false,
-								"loopfunc": false,
-								"multistr": false,
-								"newcap": true,
-								"noarg": true,
-								"node": false,
-								"noempty": false,
-								"nonew": true,
-								"nonstandard": false,
-								"onecase": false,
-								"onevar": true,
-								"plusplus": false,
-								"predef":
-								[
-									"confirm",
-									"alert",
-									"jasmine",
-									"spyOn",
-									"it",
-									"console",
-									"describe",
-									"expect",
-									"beforeEach",
-									"waits",
-									"waitsFor",
-									"runs"
-								],
-								"proto": false,
-								"prototypejs": false,
-								"regexdash": false,
-								"regexp": true,
-								"scripturl": false,
-								"shadow": false,
-								"smarttabs": true,
-								"strict": true,
-								"sub": false,
-								"supernew": false,
-								"trailing": true,
-								"undef": true,
-								"white": false,
-								"withstmt": false
-							},
-							"pep8": true,
-							"pep8_ignore":
+								15,
+								15
+							]
+						],
+						"settings":
+						{
+							"auto_name": "html.isReady{",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "source/css/app.css.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2310,
+						"regions":
+						{
+						},
+						"selection":
+						[
 							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
+								99,
+								99
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "source/layouts/_scripts.haml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1712,
+						"regions":
+						{
+						},
+						"selection":
+						[
 							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 0.0,
-							"sublimelinter_disable":
+								530,
+								530
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "source/js/script.js.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 57,
+						"regions":
+						{
+						},
+						"selection":
+						[
 							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": false,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"Python Django": "python"
-							},
-							"sublimelinter_wrap_find": true,
+								57,
+								57
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 0,
+					"file": "source/index.html.haml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4526,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								677,
+								677
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "source/css/styleguide/_palette.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 76,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								76,
+								76
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/user/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								319,
+								319
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": ".todo",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 429,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -476,8 +776,119 @@
 			]
 		},
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 10,
+					"file": "Gemfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 185,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "Gemfile.lock",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2371,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1490,
+								1490
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 905.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "source/css/_settings.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31555,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								474,
+								474
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 93.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "source/js/all.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 41,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22,
+								22
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -497,24 +908,31 @@
 				0,
 				0,
 				1,
-				1
+				2
 			],
 			[
 				1,
 				0,
 				2,
 				1
+			],
+			[
+				1,
+				1,
+				2,
+				2
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.380158918406,
+			0.5,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
+			0.495980145414,
 			1.0
 		]
 	},
@@ -523,9 +941,10 @@
 	{
 		"height": 142.0
 	},
+	"project": "fe.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -533,6 +952,62 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"all",
+				"source/js/all.js"
+			],
+			[
+				"gem",
+				"Gemfile.lock"
+			],
+			[
+				"gemfi",
+				"Gemfile"
+			],
+			[
+				"set",
+				"source/css/_settings.scss"
+			],
+			[
+				"pal",
+				"source/css/styleguide/_palette.scss"
+			],
+			[
+				"inde",
+				"source/index.html.haml"
+			],
+			[
+				"intro",
+				"source/css/modulest/_introtext.scss"
+			],
+			[
+				"conf",
+				"config.rb"
+			],
+			[
+				"is",
+				"source/css/modulest/_is.scss"
+			],
+			[
+				"app",
+				"source/css/app.css.scss"
+			],
+			[
+				"modul",
+				"source/css/modulest/_is.scss"
+			],
+			[
+				"sett",
+				"source/css/_settings.scss"
+			],
+			[
+				"js",
+				"build/js/script.js"
+			],
+			[
+				"confi",
+				"config.rb"
+			],
 			[
 				"nav",
 				"sethjgre/source/stylesheets/modules/_nav.scss"
@@ -550,16 +1025,8 @@
 				"sethjgre/source/stylesheets/master/motion.scss"
 			],
 			[
-				"intro",
-				"sethjgre/source/stylesheets/modules/_intro.scss"
-			],
-			[
 				"home",
 				"sethjgre/source/home.html.haml"
-			],
-			[
-				"all",
-				"sethjgre/source/javascripts/all.js"
 			],
 			[
 				"alt",
@@ -588,10 +1055,6 @@
 			[
 				"test",
 				"sethjgre/source/layouts/test.haml"
-			],
-			[
-				"inde",
-				"sethjgre/source/index.html.haml"
 			],
 			[
 				"all.js",
@@ -694,10 +1157,6 @@
 				"blah.html"
 			],
 			[
-				"sett",
-				"fonts/_settings.scss"
-			],
-			[
 				"who",
 				"who.html.erb"
 			],
@@ -752,10 +1211,24 @@
 		],
 		"width": 380.0
 	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 224.0,
-	"status_bar_visible": true
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }

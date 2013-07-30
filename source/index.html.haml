@@ -1,45 +1,34 @@
 ---
 title: Welcome to Middleman
 ---
-
 // INTRO TEXT
-.row 
-  .small-12.columns
-    %h1.is.hero.display.centered CINEMACTIVISM.
-    %h1.is.centered 
-      :markdown
-        you already have an agent of change. it's in your pocket. understand how the **facundo element** will push forward your issue and bring forward change. 
-// COMPANY MOTTO
-.row
-  .small-12.columns.small-centered.large-8
-    %h1.panel.is.centered ACTIVISM + REASON
-
-/ Begin MailChimp Signup Form
-#mc_embed_signup.row
-  %form#mc-embedded-subscribe-form.validate{:action => "http://facundoelement.us2.list-manage.com/subscribe/post?u=3de55524557b0c6ca0b410f49&amp;id=9ddac7376d", :method => "post", :name => "mc-embedded-subscribe-form", :novalidate => "", :target => "_blank"}
-    .mc-field-group.small-12.small-centered.large-8.large-uncentered.columns
-      %label{:for => "mce-EMAIL"}
-      %h2
-        %input#mce-EMAIL.required.email{:name => "EMAIL", :type => "email", :value => "Email"}
-    #mce-responses.clear
-      #mce-error-response.response{:style => "display:none"}
-      #mce-success-response.response{:style => "display:none"}
-    .small-5.small-centered.large-4.large-uncentered.columns
-      %h3 
-        %input#mc-embedded-subscribe.button{:name => "subscribe", :type => "submit", :value => "Join Us Today!"}
-/ End mc_embed_signup
+.row-introtext
+  .row
+    .small-12.columns
+      %h1.is.hero.display.centered CINEMACTIVISM.
+      %h1.is.centered.now
+        :markdown
+          you already have an agent of change. it's in your pocket. understand how the **facundo element** will push forward your issue and bring forward change. 
+  // COMPANY MOTTO
+  .row
+    .small-12.columns.small-centered.large-8
+      %h1.panel.is.centered.radius SHOW ME CHANGE
 
 
+  / Begin MailChimp Signup Form
+  #mc_embed_signup.row
+    %form#mc-embedded-subscribe-form.validate{:action => "http://facundoelement.us2.list-manage.com/subscribe/post?u=3de55524557b0c6ca0b410f49&amp;id=9ddac7376d", :method => "post", :name => "mc-embedded-subscribe-form", :novalidate => "", :target => "_blank"}
+      .mc-field-group.small-12.small-centered.large-8.large-uncentered.columns
+        %label{:for => "mce-EMAIL"}
+        %h2
+          %input#mce-EMAIL.required.email{:name => "EMAIL", :type => "email", :value => "Email"}
+      #mce-responses.clear
+        #mce-error-response.response{:style => "display:none"}
+        #mce-success-response.response{:style => "display:none"}
+      .small-5.small-centered.large-4.large-uncentered.columns
+        %input#mc-embedded-subscribe.button.radius.large{:name => "subscribe", :type => "submit", :value => "Join Us Today!"}
+  / End mc_embed_signup
 
-// NAV----------------------//
-.contain-to-grid
-  %nav.top-bar
-    %ul.title-area
-      %li.name
-        %h1
-          %a{:href => "#"}Facundo Element
-      %li.toggle-topbar.menu-icon
-        %a{:href => "#"}  
 // RECENT ACTS
 .row
   .small-12.columns
@@ -77,6 +66,7 @@ title: Welcome to Middleman
       %li 
         %h2.panel Future Project
 // WATCH & GROW
+
 .row
   .small-10.columns.small-centered
     %h1.is.hero.display.centered WATCH & GROW
