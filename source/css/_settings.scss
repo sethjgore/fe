@@ -1,6 +1,4 @@
 // Required global settings and mixins for Foundation
-@import "foundation";
-
 // Settings file to override Foundation variables
 
 // You can find the variables for each component at the bottom of their
@@ -251,7 +249,7 @@ $header-font-family: $type-light, "Helvetica", Helvetica, Arial, sans-serif;
 // $button-font-med: emCalc(16px);
 // $button-font-tny: emCalc(11px);
 // $button-font-sml: emCalc(13px);
-// $button-font-lrg: emCalc(20px);
+//$button-font-lrg: emCalc(20px);
 // $button-font-weight: bold;
 // $button-font-align: center;
 

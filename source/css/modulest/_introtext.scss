@@ -1,5 +1,8 @@
 .row-introtext{
 	background: image-url('diagmonds.png') center center, $gray;
+	min-height: 95vh;
+	border-bottom: $orange 1em solid;
+
 }
 
 .intro-text-hero{
@@ -8,4 +11,13 @@
 
 .intro-text-message{
 	@include transition-delay(2s);
+	color: $white;
+}
+
+.intro-video{
+	@include transition-delay(3.5s);
+}
+
+.intro-email{
+	@include transition-delay(4s);
 }

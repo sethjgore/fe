@@ -1,0 +1,7 @@
+.doing-cards{
+	h2{
+		@include panel($white, 2em, true);
+		border-radius: $global-radius;
+		border: 1px $gray-light solid;
+	}
+}

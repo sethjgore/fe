@@ -1,10 +1,18 @@
+TODAY
+change height of row
+change layout
+links all uncolored, underlined
 add new page for 'projects'
+
+
+
+
+
 animations
 	add introduction stint
 	add motion to load
 	add motion to post signup
-disable submit until email check outs
-
+clean up fonts
 HACKEDITDAY//SHAME.CSS//DESIGNERCOMPLAINTS
 mixin for mailchimp fields instead of declarative classes
 	fix submit button width — need to follow width of column not content

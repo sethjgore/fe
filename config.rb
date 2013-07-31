@@ -83,6 +83,7 @@ configure :build do
 end
 
 activate :relative_assets
+activate :directory_indexes
 
 sass_options = {:debug_info => true}
 
