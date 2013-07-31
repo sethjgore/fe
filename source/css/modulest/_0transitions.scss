@@ -7,8 +7,8 @@
 	-webkit-transform: scale(1.4);
 	}
 
-	&.opaque{
-		opacity: .2;
+	&.appear{
+		opacity: 0;
 	}
 
 	&.moveDown{
@@ -25,7 +25,7 @@
 		-webkit-transform: scale(1);
 	}
 
-	.opaque{
+	.appear{
 		opacity: 1;
 	}
 
