@@ -1,0 +1,40 @@
+.now{
+
+	@include transition(all 800ms cubic-bezier(0.390, 0.575, 0.565, 1.000));
+	@include transition-delay(.2s);
+
+	&.scaleDown{
+	-webkit-transform: scale(1.4);
+	}
+
+	&.appear{
+		opacity: 0;
+	}
+
+	&.moveDown{
+	-webkit-transform: translateY(-3em);
+	}
+
+	&.moveUp{
+	-webkit-transform: translateY(3em);
+	}
+}
+
+.isReady{
+	.scaleDown{
+		-webkit-transform: scale(1);
+	}
+
+	.appear{
+		opacity: 1;
+	}
+
+	.moveDown{
+		-webkit-transform: translateY(0);
+	}
+
+
+	.moveUp{
+	-webkit-transform: translateY(0em);
+	}
+}

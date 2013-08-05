@@ -1,18 +1,18 @@
 // NAV----------------------//
-.contain-to-grid.now.moveDown
-  %nav.top-bar{"data-options" => "is_hover:false"}
+.contain-to-grid
+  %nav.top-bar.now.moveDown{"data-options" => "is_hover:false"}
     %ul.title-area
       %li#nav-logo.name
         %h1
-          %a{:href => "#"} Facundo Element
+          = link_to 'Facundo Element', '/'
       %li.toggle-topbar.menu-icon
         %a{:href => "#"} Menu
     %section.top-bar-section
       %ul.right 
         %li 
-          %a{:href => "#"} Projects
+          = link_to 'Projects', '#'
         %li 
-          %a{:href => "#"} What We Do
+          = link_to 'What We Do', '#'
         %li 
-          %a{:href => "#"} Transform
+          = link_to 'Transform', '#'
         
