@@ -10,7 +10,7 @@
 //
 
 // This is the default html and body font-size for the base em value.
-$em-base: 20px;
+$em-base: 16px;
 
 // We use these to control various global styles
 // $body-bg: #fff;
@@ -966,10 +966,10 @@ $panel-border-size: 0px;
 //
 
 // Background color for the top bar
-// $topbar-bg: #111;
+$topbar-bg: rgba(40,40,40,01);
 
 // Height and margin
-// $topbar-height: 45px;
+$topbar-height: 80px;
 // $topbar-margin-bottom: emCalc(30px);
 
 // Control Input height for top bar
@@ -981,8 +981,8 @@ $panel-border-size: 0px;
 
 // Set the link colors and styles for top-level nav
 // $topbar-link-color: #fff;
-// $topbar-link-weight: bold;
-// $topbar-link-font-size: emCalc(13px);
+$topbar-link-weight: 200;
+$topbar-link-font-size: emCalc(40px);
 
 // Style the top bar dropdown elements
 // $topbar-dropdown-bg: #333;

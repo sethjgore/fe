@@ -48,10 +48,29 @@
 			}
 		},
 		{
+			"contents": "$small: ",
+			"file": "source/css/styleguide/_grid-responsive.scss",
+			"file_size": 0,
+			"file_write_time": 130202049000000000,
+			"settings":
+			{
+				"buffer_size": 8,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "config.rb",
 			"settings":
 			{
 				"buffer_size": 1666,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 269,
 				"line_ending": "Unix"
 			}
 		},
@@ -69,14 +88,6 @@
 			"settings":
 			{
 				"buffer_size": 479,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Gemfile",
-			"settings":
-			{
-				"buffer_size": 269,
 				"line_ending": "Unix"
 			}
 		},
@@ -128,6 +139,31 @@
 			"settings":
 			{
 				"buffer_size": 371,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/about.html.haml",
+			"settings":
+			{
+				"buffer_size": 1918,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/css/modulest/_logo.css.scss",
+			"settings":
+			{
+				"buffer_size": 44,
+				"line_ending": "Unix",
+				"name": ".logo-text{"
+			}
+		},
+		{
+			"file": "source/logo.html.haml",
+			"settings":
+			{
+				"buffer_size": 971,
 				"line_ending": "Unix"
 			}
 		}
@@ -263,6 +299,7 @@
 	},
 	"file_history":
 	[
+		"/Users/user/Dropbox/Web/fe/Gemfile.lock",
 		"/Users/user/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/user/Dropbox/Web/fe/source/layouts/_nav.haml",
 		"/Users/user/Dropbox/Web/fe/source/projects.html.haml",
@@ -287,7 +324,6 @@
 		"/Users/user/Dropbox/Web/fe/config.rb",
 		"/Users/user/Dropbox/Web/fe/.devprocess",
 		"/Users/user/Dropbox/Web/fe/.todo",
-		"/Users/user/Dropbox/Web/fe/Gemfile.lock",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_0transitions.scss",
 		"/Users/user/Dropbox/Web/fe/Rakefile",
 		"/Users/user/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
@@ -408,6 +444,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"hero",
 			"A",
 			"      =",
 			"	",
@@ -472,7 +509,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -532,6 +569,33 @@
 				},
 				{
 					"buffer": 2,
+					"file": "source/css/styleguide/_grid-responsive.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8,
+								8
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "config.rb",
 					"semi_transient": false,
 					"settings":
@@ -554,7 +618,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 26.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -562,16 +626,44 @@
 			]
 		},
 		{
-			"sheets":
-			[
-			]
-		},
-		{
-			"selected": 8,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 3,
+					"buffer": 4,
+					"file": "Gemfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 269,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								140,
+								124
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 10,
+			"sheets":
+			[
+				{
+					"buffer": 5,
 					"file": "source/css/modulest/_footer.scss",
 					"semi_transient": false,
 					"settings":
@@ -599,7 +691,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 6,
 					"file": ".todo",
 					"semi_transient": false,
 					"settings":
@@ -626,7 +718,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "Gemfile",
 					"semi_transient": false,
 					"settings":
@@ -653,7 +745,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "source/css/_settings.scss",
 					"semi_transient": false,
 					"settings":
@@ -680,7 +772,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "source/css/styleguide/_now.scss",
 					"semi_transient": false,
 					"settings":
@@ -708,7 +800,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "source/css/modulest/_nav.scss",
 					"semi_transient": false,
 					"settings":
@@ -735,7 +827,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "source/css/styleguide/_palette.scss",
 					"semi_transient": false,
 					"settings":
@@ -763,7 +855,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 11,
 					"file": "source/css/modulest/_isready.scss",
 					"semi_transient": false,
 					"settings":
@@ -791,7 +883,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 12,
 					"file": "/Users/user/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
 					"semi_transient": false,
 					"settings":
@@ -811,6 +903,92 @@
 						{
 							"syntax": "Packages/JavaScript/JSON.tmLanguage",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "source/about.html.haml",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1918,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1918
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "source/css/modulest/_logo.css.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 44,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								38,
+								38
+							]
+						],
+						"settings":
+						{
+							"auto_name": ".logo-text{",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "source/logo.html.haml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 971,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								69
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -881,6 +1059,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"gem",
+				"Gemfile"
+			],
 			[
 				"is",
 				"source/css/modulest/_isready.scss"
@@ -964,10 +1146,6 @@
 			[
 				"all",
 				"source/js/all.js"
-			],
-			[
-				"gem",
-				"Gemfile.lock"
 			],
 			[
 				"gemfi",
