@@ -6,4 +6,9 @@
 	a{
 		padding-left: 3em;
 	}
+
+  &:hover{
+    @include transition;
+    transform: rotateZ(-.3em);
+  }
 }
