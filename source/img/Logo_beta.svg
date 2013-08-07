@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="547px" height="678px" viewBox="0 0 547 678" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>Logo</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs id="path-1">
+        <path d="M301.690357,22.1084475 C352.632423,46.4641183 385.528876,97.1142901 385.528876,192.950379 C385.528876,345.027515 367.491091,553.297939 196.362177,553.297902 C25.2332628,553.297865 0.4711236,345.027515 0.4711236,192.950379 C0.4711236,99.9036177 33.9977724,49.4507616 84.3792672,24.3023658 C41.2532758,48.9416023 13.031526,95.6242557 13.031526,178.16121 C13.031526,320.316976 36.1782066,514.999965 196.142832,515 C356.107457,515.000035 372.968474,320.316976 372.968474,178.16121 C372.968474,93.1062254 345.248687,46.1265923 301.690357,22.1084475 Z M301.690357,22.1084475"></path>
+    </defs>
+    <g id="Page 1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo">
+            <g id="Group copy 2" transform="translate(86.000000, 41.000000)">
+                <use id="Oval 1 copy 4" stroke="#FFBB1B" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="#FFBB1B" xlink:href="#path-1"></use>
+                <use id="Oval 1 copy 4-1" xlink:href="#path-1"></use>
+                <g id="Group copy" transform="translate(85.000000, 84.000000)" stroke="#FFBB1B" stroke-width="12" stroke-linecap="round">
+                    <path d="M4.85816553,96.0172729 C4.85816553,96.0172729 4.85816554,-11.9662781 108.264381,55.372467 C211.670602,122.711211 212.247014,14.7276611 212.247014,14.7276611" id="Path copy 3" transform="translate(108.552590, 55.372467) rotate(-172.000000) translate(-108.552590, -55.372467) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

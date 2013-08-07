@@ -30,6 +30,13 @@
 #   page "/admin/*"
 # end
 
+with_layout :project do
+  page "/projects/*"
+  page "/projects.html"
+end
+
+page "/about.html", :layout => :project
+page "/projects.", :layout => :project
 # Proxy (fake) files
 # page "/this-page-has-no-template.html", :proxy => "/template-file.html" do
 #   @which_fake_page = "Rendering a fake page with a variable"
