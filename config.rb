@@ -30,13 +30,9 @@
 #   page "/admin/*"
 # end
 
-with_layout :project do
-  page "/projects/*"
-  page "/projects.html"
-end
 
 page "/about.html", :layout => :project
-page "/projects.", :layout => :project
+page "/projects.html", :layout => :project
 # Proxy (fake) files
 # page "/this-page-has-no-template.html", :proxy => "/template-file.html" do
 #   @which_fake_page = "Rendering a fake page with a variable"
@@ -87,6 +83,18 @@ configure :build do
 
   # Or use a different image path
   # set :http_path, "/Content/images/"
+end
+
+activate :blog do |blog|
+  #blog.prefix = "projects"
+ # blog.permalink = ":title"
+  #blog.layout = "layouts/blog"
+  #blog.sources = "projects/"
+
+  blog.prefix = "projects"
+  blog.permalink = ":title"
+  blog.layout = "blog"
+  blog.default_extension = ".md"
 end
 
 activate :relative_assets
