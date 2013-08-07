@@ -99,6 +99,7 @@ end
 
 activate :relative_assets
 activate :directory_indexes
+set :relative_links, true
 
 sass_options = {:debug_info => true}
 

@@ -1,8 +1,13 @@
-.doing-cards{
-	h2{
+.cards{
 		@include panel(#fff, 2em, true);
 		border-radius: $global-radius;
 		border: 1px $gray-light solid;
 		background-size: cover;
-	}
+
+    @include transition(all .3s 0);
+
+    &:hover{
+      @include translateY(-.5em);
+    }
 }
+

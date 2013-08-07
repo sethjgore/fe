@@ -1,18 +1,24 @@
 = wrap_layout :layout do
   .row
     .small-12.columns
-      %h1 PROJECT
-  .row
-    .small-12.columns
-      = yield
+      %h1.is.display.hero
+        = current_page.data.statement
+      %h1 
+        :markdown
+          This is what we do. We have brought forward countless issues & helped many grassroot activists carry out their voice. 
   
   .row
-    .small-10.columns.panel
-      - blog.articles[0...5].each do |article|
-        %article
-          %h1
-            %a{:href => article.url}= article.title
-          %time= article.date.strftime('%b %e, %Y')
-          %p= article.data.teaser
-          %p
-            %a{:href => article.url} Read more.
+    .small-12.columns
+      %ul.small-block-grid-1.large-block-grid-2 
+        - blog.articles[0...5].each do |article|
+          %li
+            %a{:href => article.url}
+              %h2.cards
+                = article.title
+              //%time= article.date.strftime('%b %e, %Y')
+              %p= article.data.teaser
+              %p
+              
+
+    .small-12.columns
+      = yield
