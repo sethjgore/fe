@@ -10,17 +10,25 @@
   padding-top: 3em;
   padding-bottom: 3em;
 
+  .cards__summary{
+    @include translateY(-6em);
+  }
+
   &:hover{  
     @include translateY(-.5em);
     background-position: -2em;
 
-    & > h2, & > h4{
+    .cards__title{
       @include translateY(4em);
     }
+    
+    .cards__summary{
+      @include translateY(-1em);
+    }
+
   }
 
-
-  .cards__titles{
+  .cards__title, .cards__summary{
     background: rgba(0,0,0,.2);
     text-shadow: rgba(0,0,0,.2);
     color: #fff;
