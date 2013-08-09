@@ -1,21 +1,38 @@
-.cards{
-		@include panel(#fff, 2em, true);
-		border-radius: $global-radius;
-		border: 1px $gray-light solid;
-		background-size: cover;
-
-    @include transition(all .3s 0);
-    overflow: hidden;
-    position: relative;
-    
-    &:hover{
-      @include translateY(-.5em);
-    }
-
-    .cards__splashimage{
-      position: absolute;
-      height: 100%;
-
-    }
+.cards, .cards > * {
+   @include transition(all .3s 0);
 }
+
+.cards{
+	@include panel(#fff, 2em, true);
+	border-radius: $global-radius;
+	border: 1px $gray-light solid;
+  overflow: hidden;
+  padding-top: 3em;
+  padding-bottom: 3em;
+
+  &:hover{  
+    @include translateY(-.5em);
+    background-position: -2em;
+
+    & > h2, & > h4{
+      @include translateY(4em);
+    }
+  }
+
+
+  .cards__titles{
+    background: rgba(0,0,0,.2);
+    text-shadow: rgba(0,0,0,.2);
+    color: #fff;
+  }
+}
+
+#cards__bg{
+  background-size: cover !important;
+
+  &:hover{
+    background-position: 0 -4em !important; 
+  }
+}
+
 

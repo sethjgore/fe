@@ -1,8 +1,8 @@
 ---
-title: test
+title: Audacity to Exist
 date: 2013-08-07 19:34 UTC
-image:
-summary:
+splashimage: image.jpg
+summary: The passion of life
 ---
 
 so is this working? 
