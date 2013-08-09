@@ -5,9 +5,17 @@
 		background-size: cover;
 
     @include transition(all .3s 0);
-
+    overflow: hidden;
+    position: relative;
+    
     &:hover{
       @include translateY(-.5em);
+    }
+
+    .cards__splashimage{
+      position: absolute;
+      height: 100%;
+
     }
 }
 
