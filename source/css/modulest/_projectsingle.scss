@@ -1,0 +1,13 @@
+.projectsingle__image{
+  height: 50vh;
+  background-size: cover !important;
+}
+
+.projectsingle__display{
+  mark{
+    background: rgba(0,0,0,.27);
+    border-bottom: .1em $main solid;
+    color: $white;
+    padding: .3em;
+  }
+}

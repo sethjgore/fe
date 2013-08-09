@@ -1,7 +1,6 @@
 
 # ROUTER IMPLEMENTATION VIA MIDDLEMAN RACKWARE
 page "/",               :layout => :layout
-page "/*",              :layout => :general
 page "/projects.html",  :layout => :project
 
 #SET DIRECTORIES OF IMG / JS / CSS
