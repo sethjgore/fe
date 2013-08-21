@@ -1,6 +1,6 @@
 // NAV----------------------//
 .contain-to-grid
-  %nav.top-bar.now.moveDown{"data-options" => "is_hover:false"}
+  %nav.top-bar.now.moveDown.nav-spread{"data-options" => "is_hover:false"}
     %ul.title-area
       %li#nav-logo.name
         %h1
@@ -18,4 +18,8 @@
         %li
           = link_to 'Donate Today', '/donate.html'
         %li.button Hello
-        
+  .row
+    .small-12.large-4.columns
+      = partial 'layouts/moreinfo'
+    .small-12.large-8.columns
+      

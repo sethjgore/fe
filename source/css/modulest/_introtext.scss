@@ -1,17 +1,25 @@
 .row-introtext{
-	background: image-url('diagmonds.png') center center, $gray;
+	background: image-url('photos/thinktank-7.jpeg') center center, $gray;
 	min-height: 95vh;
-	border-bottom: $orange 1em solid;
+	//border-bottom: $orange 1em solid;
+  background-size: cover;
+}
 
+.row-introtext{
 }
 
 .intro-text-hero{
-	@include transition-delay(1s)
+	@include transition-delay(1s);
+
+  &:first-child{
+    padding-top: 40vh;
+    border-bottom: 2.5rem solid rgb(255, 182, 27);
+  }
 }
 
 .intro-text-message{
 	@include transition-delay(2s);
-	color: $white;
+	color: $main;
 }
 
 .intro-video{
