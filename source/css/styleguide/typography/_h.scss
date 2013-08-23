@@ -1,0 +1,14 @@
+h1,h2,h3,h4,h5,h6{
+  font-weight: normal;
+  @extend .is-font__medium;
+}
+
+h1{
+  font-size: 15rem; 
+  @extend .is-text__centered;
+  @extend .block-border;
+}
+
+h2{
+  font-size: 8rem;
+}

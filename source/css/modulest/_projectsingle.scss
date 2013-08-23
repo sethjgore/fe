@@ -1,18 +1,19 @@
-.projectsingle__intro{
-  background: rgb(40, 40, 40);
-  height: 30vh;
-}
-
 .projectsingle__splash{
-  height: 100vh;
-  background-size: cover !important;
+  @extend .block__splash;
+
+  h1{
+    @extend .splash__text;
+    position: relative;
+    bottom: -60vh;
+  }
 }
 
-.projectsingle__display{
-  mark{
-    background: rgba(0,0,0,.27);
-    border-bottom: .1em $main solid;
+.projectsingle__title{
     color: $white;
-    padding: .3em;
-  }
+}
+
+.projectsingle__summary{
+  @extend .splash__summary;
+  margin-top: 0;
+  @extend .is-text__centered;
 }

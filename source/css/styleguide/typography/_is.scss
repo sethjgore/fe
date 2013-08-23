@@ -1,0 +1,41 @@
+///FONT FORMATTING///
+
+.is-font__bold{
+  font-family: $type-bold;
+}
+.is-font__medium{
+  font-family: $type-medium;
+}
+.is-font__light{
+  font-family: $type-light;
+}
+.is-font__black{
+  font-family: $type-black;
+}
+
+///APPEARANCE & POSITION ///
+
+.is-text__centered{
+  text-align: center;
+}
+.visible-50{
+  opacity: .50;
+}
+
+.is-text-big{
+  font-size: 15rem;
+}
+
+///COLORS///
+
+.is-color-white{
+  color: $white;
+}
+
+.is-color-main{
+  color: $orange;
+}
+
+.is-color-gray{
+  color: $gray;
+}

@@ -5,7 +5,5 @@ tags:
 summary: changing humanity through film
 splashimage: photo.jpg
 ---
-
-#Hello World? 
-
-Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.
+:html
+  <iframe width="500" height="307" src="http://www.youtube.com/embed/PUWSQd1yzUk" frameborder="0" allowfullscreen></iframe>
