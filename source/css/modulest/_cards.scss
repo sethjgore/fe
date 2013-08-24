@@ -8,35 +8,40 @@
 	border: 1px $gray-light solid;
   overflow: hidden;
   padding-top: 3em;
-  padding-bottom: 3em;
+  padding-bottom: 6em;
+  height: 30rem;
+  margin-bottom: 6em;
 
   .cards__summary{
-    @include translateY(-6em);
+    @include translateY(-25rem);
+    display: inline-block;
+    padding: 1em;
   }
 
   &:hover{  
-    @include translateY(-.5em);
-    background-position: -2em;
+    //@include translateY(-.5em);
+    //background-position: -2em;
 
     .cards__title{
-      @include translateY(4em);
+      @include translateY(15rem);
     }
     
     .cards__summary{
-      @include translateY(-1em);
+      @include translate3d(0, -10rem);
+      background: $red;
     }
 
   }
 
   .cards__title, .cards__summary{
-    background: rgba(0,0,0,.2);
-    text-shadow: rgba(0,0,0,.2);
+    text-shadow: 1px 1px 3px rgba(0,0,0,.5);
     color: #fff;
   }
 }
 
 #cards__bg{
   background-size: cover !important;
+  background-position: top center !important;
 
   &:hover{
     background-position: 0 -4em !important; 
