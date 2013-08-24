@@ -13,6 +13,15 @@
   }
 }
 
+nav{
+  a{
+    text-decoration: none;
+  
+    &:hover{
+      color: $orange !important;
+    }
+  }
+}
 .nav-fixed{
   position: fixed;
   bottom: 0;

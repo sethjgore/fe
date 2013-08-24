@@ -1,6 +1,6 @@
 .row
   - blog.articles.each do |article|
-    .small-12.large-6.columns
+    .small-12.columns
       %a{:href => article.url}
         .cards#cards__bg{:style => "background : url('/projects/#{article.title}/#{article.data.splashimage}');"}
           %h.is.centered.cards__title

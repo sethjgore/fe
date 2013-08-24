@@ -61,3 +61,5 @@ set :relative_links, true
 # WAIT UNTIL COMPASS ACCEPTS SASS BLEEDING EDGE
 sass_options = {:debug_info => true}
 sass_options = {:sourcemap => true}
+
+set :markdown_engine, :redcarpet
