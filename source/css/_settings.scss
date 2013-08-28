@@ -10,7 +10,7 @@
 //
 
 // This is the default html and body font-size for the base em value.
-$em-base: 16px;
+$em-base: 18px;
 
 // We use these to control various global styles
 // $body-bg: #fff;
@@ -93,7 +93,7 @@ $row-width: 70vw;
 // $header-text-rendering: optimizeLegibility;
 
 // We use these to control header font sizes
-$h1-font-size: emCalc(240px);
+//$h1-font-size: emCalc(240px);
 // $h2-font-size: emCalc(37px);
 // $h3-font-size: emCalc(27px);
 // $h4-font-size: emCalc(23px);
@@ -114,7 +114,7 @@ $h1-font-size: emCalc(240px);
 // We use these to style paragraphs
 // $paragraph-font-family: inherit;
 // $paragraph-font-weight: normal;
-$paragraph-font-size: 5em;
+//$paragraph-font-size: 5em;
 // $paragraph-line-height: 1.6;
 // $paragraph-margin-bottom: emCalc(20px);
 // $paragraph-aside-font-size: emCalc(14px);
@@ -233,10 +233,10 @@ $paragraph-font-size: 5em;
 // $input-error-message-font-color-alt: #333;
 
 // We use these to build padding for buttons.
-// $button-med: emCalc(12px);
-// $button-tny: emCalc(7px);
-// $button-sml: emCalc(9px);
-// $button-lrg: emCalc(16px);
+$button-med: emCalc(6px);
+$button-tny: emCalc(3px);
+$button-sml: emCalc(6px);
+$button-lrg: emCalc(6px);
 
 // We use this to control the display property.
 // $button-display: inline-block;
@@ -246,7 +246,7 @@ $paragraph-font-size: 5em;
 // $button-font-family: inherit;
 // $button-font-color: #fff;
 // $button-font-color-alt: #333;
-// $button-font-med: emCalc(16px);
+$button-font-med: 1rem;
 // $button-font-tny: emCalc(11px);
 // $button-font-sml: emCalc(13px);
 //$button-font-lrg: emCalc(20px);
@@ -258,8 +258,8 @@ $paragraph-font-size: 5em;
 
 // We use these to control button border styles.
 $button-border-width: 0px;
-// $button-border-style: solid;
-// $button-border-color: darken($primary-color, $button-function-factor);
+$button-border-style: none;
+$button-border-color: none;
 
 // We use this to set the default radius used throughout the core.
 // $button-radius: $global-radius;
