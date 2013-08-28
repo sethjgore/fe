@@ -977,12 +977,12 @@ $topbar-height: 80px;
 
 // Controlling the styles for the title in the top bar
 // $topbar-title-weight: bold;
-$topbar-title-font-size: 1.5em;
+$topbar-title-font-size: .8rem;
 
 // Set the link colors and styles for top-level nav
 // $topbar-link-color: #fff;
 $topbar-link-weight: 200;
-$topbar-link-font-size: emCalc(40px);
+$topbar-link-font-size: .6rem;
 
 // Style the top bar dropdown elements
 // $topbar-dropdown-bg: #333;
@@ -994,7 +994,7 @@ $topbar-link-font-size: emCalc(40px);
 
 // Top menu icon styles
 // $topbar-menu-link-transform: uppercase;
-$topbar-menu-link-font-size:3.75em;
+$topbar-menu-link-font-size: .6rem;
 // $topbar-menu-link-weight: bold;
 // $topbar-menu-link-color: #fff;
 // $topbar-menu-icon-color: #fff;
