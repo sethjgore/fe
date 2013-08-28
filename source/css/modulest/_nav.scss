@@ -34,3 +34,11 @@ nav{
     font-size: .6rem !important;
   }
 }
+
+.nav-menu-icon__override{
+  text-indent: 0rem !important; 
+
+  @media #{$small}{
+    text-indent: -1.7rem !important;
+  }
+}
