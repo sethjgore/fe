@@ -12,7 +12,7 @@
   height: 30rem;
   margin-bottom: 6em;
 
-  .cards__summary{
+ /* .cards__summary{
     @include translateY(-25rem);
     display: inline-block;
     padding: 1em;
@@ -32,6 +32,7 @@
     }
 
   }
+  */
 
   .cards__title, .cards__summary{
     text-shadow: 1px 1px 3px rgba(0,0,0,.5);
@@ -42,10 +43,12 @@
 #cards__bg{
   background-size: cover !important;
   background-position: top center !important;
+  background-repeat: no-repeat;
+  background: $red;
 
-  &:hover{
+  /*&:hover{
     background-position: 0 -4em !important; 
-  }
+  }*/
 }
 
 

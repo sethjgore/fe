@@ -1,0 +1,17 @@
+.row{
+  max-width: 100vw;
+
+  @media #{$small}{
+    max-width: 85vw;
+  }
+
+  @media #{$medium}{
+    max-width: 77vw;
+  }
+
+  @media #{$large}{
+    max-width: 70vw;
+  }
+
+  /*olleh*/
+}

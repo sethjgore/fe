@@ -1,9 +1,32 @@
 html,body{
-  font-size: 36px;
+    
+    font-size: 50%;
+
+  @media #{$small}{
+    font-size: 60%;
+  }
+
+  @media #{$medium}{
+    font-size: 80%;
+  }
+
+  @media #{$large}{
+    font-size: 100%;
+  }
 }
 
 p{
-  font-size: 1.6em;
-  line-height: 1.6em;
-  font-family: Merriweather;
+  font-size: 1.7rem;
+  line-height: 1.62em;
+  font-family: Cardo;
+}
+
+blockquote{
+  font-size: 2.5rem;
+  font-family: Cardo;
+  line-height: 1.42em;
+
+  p{
+    font-size: inherit;
+  }
 }

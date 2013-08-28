@@ -1,10 +1,10 @@
 .row
   - blog.articles.each do |article|
-    .small-10.columns.small-centered
+    .small-10.columns.end
       %a{:href => article.url}
-        .cards#cards__bg{:style => "background : url('/projects/#{article.title}/#{article.data.splashimage}');"}
+        .cards#cards__bg{:style => "background : url('/projects/#{article.title}/#{article.data.splashimage}') no-repeat;"}
           %h3.is.centered.cards__title
             = article.title
-          //%time= article.date.strftime('%b %e, %Y')
+        -#
           %h4.is.centered.cards__summary
             = article.data.summary

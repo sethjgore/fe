@@ -2,8 +2,18 @@
   margin-top: 6rem;
   margin-bottom: 2rem;
   padding-bottom: 3rem;
-
-  h3{
+  background: $orange;
+  h2,p,blockquote{
     margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  h2{
+    position: absolute;
+    top: -7rem;
+  }
+
+  .flex-video{
+    margin-top: 3rem;
   }
 }

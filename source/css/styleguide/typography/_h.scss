@@ -4,9 +4,9 @@ h1,h2,h3,h4,h5,h6{
 }
 
 h1{
-  font-size: 15rem; 
-  @extend .is-text__centered;
-  @extend .block-border;
+    font-size: 15rem; 
+    @extend .is-text__centered;
+    @extend .block-border;
 }
 
 h2{
@@ -14,17 +14,17 @@ h2{
 }
 
 h3{
-  font-size: 68px;
+  font-size: 6rem;
 }
 
 h4{
-  font-size: 42px;
+  font-size: 4.5rem;
 }
 
 h5{
-  font-size: 33px;
+  font-size: 3rem;
 }
 
 h6{
-  font-size: 20px;
+  font-size: 1rem;
 }

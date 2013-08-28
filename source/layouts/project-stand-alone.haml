@@ -1,13 +1,15 @@
 - wrap_layout :layout do
-  .projectsingle__splash{:style => "background : url('/projects/#{current_page.data.title}/#{current_page.data.splashimage}');"}
-    .row
-      .small-12.columns
-        %h1.projectsingle__title
-          = current_page.data.title
+  .projectsingle__splash{:style => "background : url('/projects/#{current_page.data.title}/#{current_page.data.splashimage}') center center no-repeat;"}
+    .projectsingle__box
+      .row
+        .small-12.columns
+          %h1.projectsingle__title
+            = current_page.data.title
   .row
     .small-12.columns
       %h2.projectsingle__summary
         = current_page.data.summary  
       = yield
-
-  = partial 'layouts/cards'
+    .small-12.columns
+      %h2.is-text__centered 
+        = link_to 'Back to Projects', '/projects.html'

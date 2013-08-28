@@ -1,13 +1,12 @@
 .projectsingle__splash{
   @extend .block__splash;
-
+  position: relative;
   h1{
-    @extend .splash__text;
+    border-bottom: none;
+    top: 20rem;
     position: relative;
-    bottom: -60vh;
   }
 }
-
 .projectsingle__title{
     color: $white;
 }
@@ -16,4 +15,6 @@
   @extend .splash__summary;
   margin-top: 0;
   @extend .is-text__centered;
+  position: relative;
+  top: -8rem;
 }
