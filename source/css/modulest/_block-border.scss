@@ -1,9 +1,9 @@
 .block-border{
-    border-bottom: 2.5rem solid $orange;
+    border-bottom: .6rem solid $orange;
 }
 
 .block-border__light{
-  border-width: 1.5rem;
+  border-width: .2rem;
   border-color: $gray-light; 
   @extend .block-border;
 
