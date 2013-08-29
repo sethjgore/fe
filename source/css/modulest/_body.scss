@@ -1,7 +1,10 @@
 body{
 	background: $orange;
-  margin-bottom: 10rem;
+ border-bottom: 2rem solid $orange;
 }
 .body-color{
 	background: $white;
+}
+.content-color{
+  background: $white;
 }

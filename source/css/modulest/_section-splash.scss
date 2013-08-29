@@ -1,0 +1,15 @@
+.section-splash__box{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  z-index: -1;
+
+}
+
+.section-splash__box + div,
+.section-splash__box + section {
+  margin-top: 100vh;
+}

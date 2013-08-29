@@ -11,6 +11,7 @@ set :js_dir, 'js'
 set :images_dir, 'img'
 
 activate :livereload
+activate :cache_buster
 
 #WHEN BUILDING SITE, DODO? 
 configure :build do
