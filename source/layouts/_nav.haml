@@ -1,12 +1,12 @@
 // NAV----------------------//
 .contain-to-grid.nav-fixed
   %nav.top-bar.now.moveDown.nav-spread{"data-options" => "is_hover:false"}
-    %ul.title-area
+    %ul.title-area.nav-title-area__override
       %li#nav-logo.name
         %h1
           = link_to 'Facundo Element', '/'
         .button
-          Hello
+          Donate
 
       %li.toggle-topbar.menu-icon
         %a.nav-menu-icon__override{:href => "#"} Menu

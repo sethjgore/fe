@@ -44,6 +44,30 @@
 	"buffers":
 	[
 		{
+			"file": "source/layouts/_nav.haml",
+			"settings":
+			{
+				"buffer_size": 642,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/css/styleguide/typography/_typography.scss",
+			"settings":
+			{
+				"buffer_size": 777,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/css/modulest/_nav.scss",
+			"settings":
+			{
+				"buffer_size": 923,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "source/layouts/project-stand-alone.haml",
 			"settings":
 			{
@@ -52,42 +76,10 @@
 			}
 		},
 		{
-			"file": "source/layouts/_nav.haml",
-			"settings":
-			{
-				"buffer_size": 579,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "source/css/styleguide/typography/_h.scss",
-			"settings":
-			{
-				"buffer_size": 292,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "source/css/app.css.scss",
-			"settings":
-			{
-				"buffer_size": 301,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "source/css/_foundation-modules.scss",
-			"settings":
-			{
-				"buffer_size": 2118,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "source/css/_settings.scss",
 			"settings":
 			{
-				"buffer_size": 31505,
+				"buffer_size": 31427,
 				"line_ending": "Unix"
 			}
 		}
@@ -239,26 +231,29 @@
 	},
 	"file_history":
 	[
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_projectsingle.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_row.scss",
 		"/Users/user/Dropbox/Web/fe/source/about.html.haml",
-		"/Users/user/Dropbox/Web/fe/source/css/styleguide/typography/_h.scss",
+		"/Users/user/Dropbox/Web/fe/source/kitchensink.html.haml",
+		"/Users/user/Dropbox/Web/fe/source/css/_settings.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_body.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/styleguide/typography/_typography.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/_foundation-modules.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/app.css.scss",
+		"/Users/user/Dropbox/Web/fe/source/layouts/project-stand-alone.haml",
+		"/Users/user/Dropbox/Web/fe/source/layouts/_nav.haml",
+		"/Users/user/Dropbox/Web/fe/source/css/styleguide/typography/_h.scss",
+		"/Users/user/Dropbox/Web/fe/source/layouts/kitchensink.haml",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_projectsingle.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_block-quote.scss",
 		"/Users/user/Dropbox/Web/fe/source/layouts/_cards.haml",
-		"/Users/user/Dropbox/Web/fe/source/layouts/_nav.haml",
-		"/Users/user/Dropbox/Web/fe/source/layouts/project-stand-alone.haml",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_body.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_splash-box.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_cards.scss",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_row.scss",
 		"/Users/user/Dropbox/Web/fe/source/layouts/project.haml",
 		"/Users/user/Dropbox/Web/fe/source/projects.html.haml",
-		"/Users/user/Dropbox/Web/fe/source/css/_foundation-modules.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/styleguide/_fonts.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_about.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/styleguide/_palette.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_mark.scss",
-		"/Users/user/Dropbox/Web/fe/source/css/_settings.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_nav.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_links.scss",
 		"/Users/user/Dropbox/Web/fe/config.rb",
@@ -267,14 +262,11 @@
 		"/Users/user/Dropbox/Web/fe/source/css/styleguide/typography/_is.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_block-border.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_button.scss",
-		"/Users/user/Dropbox/Web/fe/source/css/app.css.scss",
 		"/Users/user/Dropbox/Web/fe/source/index.html.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_introtext.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/styleguide/typography/_p.scss",
 		"/Users/user/Dropbox/Web/fe/source/layouts/layout.haml",
-		"/Users/user/Dropbox/Web/fe/source/layouts/kitchensink.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_kitchensink.scss",
-		"/Users/user/Dropbox/Web/fe/source/kitchensink.html.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_is.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_typography.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/_typography.scss",
@@ -384,6 +376,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".butt",
+			"button",
 			"%",
 			"### ",
 			".small-12.columns\n    :markdown",
@@ -494,24 +488,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "source/layouts/project-stand-alone.haml",
+					"file": "source/layouts/_nav.haml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 531,
+						"buffer_size": 642,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								475,
-								475
+								288,
+								288
 							]
 						],
 						"settings":
@@ -528,48 +522,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "source/layouts/_nav.haml",
+					"file": "source/css/styleguide/typography/_typography.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 579,
+						"buffer_size": 777,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								482,
-								482
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "source/css/styleguide/typography/_h.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 292,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								94,
-								94
+								39,
+								81
 							]
 						],
 						"settings":
@@ -591,25 +556,27 @@
 			"sheets":
 			[
 				{
-					"buffer": 3,
-					"file": "source/css/app.css.scss",
+					"buffer": 2,
+					"file": "source/css/modulest/_nav.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 301,
+						"buffer_size": 923,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								301,
-								301
+								151,
+								151
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -618,25 +585,27 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "source/css/_foundation-modules.scss",
-					"semi_transient": false,
+					"buffer": 3,
+					"file": "source/layouts/project-stand-alone.haml",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 2118,
+						"buffer_size": 531,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								323,
-								323
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -651,20 +620,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "source/css/_settings.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 31505,
+						"buffer_size": 31427,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								31081,
-								31081
+								30639,
+								30639
 							]
 						],
 						"settings":
@@ -672,7 +641,7 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 15492.0,
+						"translation.y": 15525.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -741,8 +710,44 @@
 		"selected_items":
 		[
 			[
+				"typ",
+				"source/css/styleguide/typography/_typography.scss"
+			],
+			[
 				"nav",
-				"source/layouts/_nav.haml"
+				"source/css/modulest/_nav.scss"
+			],
+			[
+				"sett",
+				"source/css/_settings.scss"
+			],
+			[
+				"row",
+				"source/css/modulest/_row.scss"
+			],
+			[
+				"body",
+				"source/css/modulest/_body.scss"
+			],
+			[
+				"about",
+				"source/about.html.haml"
+			],
+			[
+				"set",
+				"source/css/_settings.scss"
+			],
+			[
+				"kitche",
+				"source/kitchensink.html.haml"
+			],
+			[
+				"kitchen",
+				"source/layouts/kitchensink.haml"
+			],
+			[
+				"ty",
+				"source/css/styleguide/typography/_typography.scss"
 			],
 			[
 				"stand",
@@ -777,14 +782,6 @@
 				"source/css/modulest/_projectsingle.scss"
 			],
 			[
-				"set",
-				"source/css/_settings.scss"
-			],
-			[
-				"body",
-				"source/css/modulest/_body.scss"
-			],
-			[
 				"cards",
 				"source/layouts/_cards.haml"
 			],
@@ -793,16 +790,8 @@
 				"source/css/modulest/_block-quote.scss"
 			],
 			[
-				"about",
-				"source/about.html.haml"
-			],
-			[
 				"pro",
 				"source/layouts/project.haml"
-			],
-			[
-				"ty",
-				"source/css/styleguide/typography/_typography.scss"
 			],
 			[
 				"typo",
@@ -833,10 +822,6 @@
 				"source/css/styleguide/_palette.scss"
 			],
 			[
-				"sett",
-				"source/css/_settings.scss"
-			],
-			[
 				"foundation",
 				"source/css/_foundation-modules.scss"
 			],
@@ -847,10 +832,6 @@
 			[
 				"fonts",
 				"source/css/styleguide/_fonts.scss"
-			],
-			[
-				"typ",
-				"source/css/styleguide/typography/_typography.scss"
 			],
 			[
 				"card",
@@ -891,10 +872,6 @@
 			[
 				"kitchens",
 				"source/css/modulest/_kitchensink.scss"
-			],
-			[
-				"kitche",
-				"source/layouts/kitchensink.haml"
 			],
 			[
 				"",
