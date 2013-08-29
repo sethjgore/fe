@@ -2,23 +2,90 @@
 title: Index
 ---
 // INTRO TEXT
-.block-introtext
+%section.section-splash__box.block-introtext
   .row
     .small-12.columns
-      .introtext__splash
+      .introtext__box
         %h1.introtext__first-line 
-          CINEMA
-        %h1.introtext__second-line 
-          ACTIVISM
-        / Begin MailChimp Signup Form
-        #mc_embed_signup.row.intro-email.now.appear.scaleDown
-          %form#mc-embedded-subscribe-form.validate{:action => "http://facundoelement.us2.list-manage.com/subscribe/post?u=3de55524557b0c6ca0b410f49&amp;id=9ddac7376d", :method => "post", :name => "mc-embedded-subscribe-form", :novalidate => "", :target => "_blank"}
-            .mc-field-group.small-12.small-centered.large-8.large-uncentered.columns
-              %label{:for => "mce-EMAIL"}
-              %input#mce-EMAIL.required.email{:name => "EMAIL", :type => "email", :value => "Email"}
-            #mce-responses.clear
-              #mce-error-response.response{:style => "display:none"}
-              #mce-success-response.response{:style => "display:none"}
-            .small-5.small-centered.large-4.large-uncentered.columns
-              %input#mc-embedded-subscribe.button.radius.large{:name => "subscribe", :type => "submit", :value => "Join Us Today!"}
-    / End mc_embed_signup
+          CINEMA <span class="introtext__transparent">ACTIVISM </span>
+%section
+  .row
+    .small-12.columns 
+      %figure#about-logo   
+      %h1 Facundo Element
+      :markdown
+        ##We do three things, and three things best. We <a href="#">train</a>. We <a href="#">expose</a>. We <a href="#">organize</a>. 
+
+        ##We are your portable activists - we will fight alongside you. We will teach with you. We will show change through you.
+
+%section 
+  .row.block-border__light
+  
+    .small-12.columns
+      :markdown
+        ## Train
+
+    .small-12.columns.large-5
+      .flex-video
+        <iframe width="350" height="197" src="http://www.youtube.com/embed/VFAB9e48_pk" frameborder="0" allowfullscreen></iframe>
+
+    .small-12.columns.large-7
+      :markdown
+        >We provide training on a range of topics, from reframing to transforming Deaf education to anti-audism work. Our training style mostly involves hands on activities.
+
+  .row.block-border__light
+    
+    .small-12.columns
+      :markdown
+        ## Expose 
+
+    .small-12.columns.large-5
+      .flex-video
+        <iframe width="350" height="197" src="http://www.youtube.com/embed/VFAB9e48_pk" frameborder="0" allowfullscreen></iframe>
+
+    .small-12.columns.large-7
+      :markdown
+        >There are few tools as powerful as mass media for shifting ideology. We utilize media as an activism tool: Cinemactivism.
+
+
+  .row
+    
+    .small-12.columns
+      :markdown
+        ## Organize
+
+    .small-12.columns.large-5
+      .flex-video
+        <iframe width="350" height="197" src="http://www.youtube.com/embed/VFAB9e48_pk" frameborder="0" allowfullscreen></iframe>
+
+    .small-12.columns.large-7
+      :markdown
+        >We believe that change cannot happen without action. We are available to support your community in organizing for change.
+
+
+  .row
+    .small-12.columns
+      %h2.is-text__centered 
+        CHANGE WITH US. 
+  
+
+      #mc_embed_signup.row.intro-email.now.appear.scaleDown
+      %form#mc-embedded-subscribe-form.validate{:action => "http://facundoelement.us2.list-manage.com/subscribe/post?u=3de55524557b0c6ca0b410f49&amp;id=9ddac7376d", :method => "post", :name => "mc-embedded-subscribe-form", :novalidate => "", :target => "_blank"}
+        .small-12.small-centered.large-8.large-uncentered.columns
+          .mc-field-group
+            %label{:for => "mce-EMAIL"}
+            %input#mce-EMAIL.required.email{:name => "EMAIL", :type => "email", :value => "Email"}
+        #mce-responses.clear
+          #mce-error-response.response{:style => "display:none"}
+          #mce-success-response.response{:style => "display:none"}
+        .small-5.small-centered.large-4.large-uncentered.columns
+          %input#mc-embedded-subscribe.button.radius.large{:name => "subscribe", :type => "submit", :value => "Join Us Today!"}
+  .row
+    .small-12.columns
+      :markdown
+        ##This is <mark>what we do</mark>. You. You are what makes us breathe, stay awake in the darkness, and desire for a better today. We will leave you with you as even better activists than we are. 
+
+        ##Let the change burning inside you be fed with wood, fuel, electricity. Let us bring the fuel. Let us teach you how to find the fuel. Let us involve you so you can tomorrow spread that fire to others. 
+
+        ##For change, for courage, and for cinemactivism.
+/ End mc_embed_signup

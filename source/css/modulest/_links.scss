@@ -1,4 +1,7 @@
 a{
+  color: $gray;
+  border-bottom: solid 1px $orange;
+  margin-bottom: .2rem;
   text-decoration: none;
 
   &:hover{

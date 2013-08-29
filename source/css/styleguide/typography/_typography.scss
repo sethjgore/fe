@@ -6,12 +6,12 @@ html,body{
     font-size: 250%;
   }
 
-  @media #{$medium}{
+  /*@media #{$medium}{
     font-size: 300%;
-  }
+  }*/
 
   @media #{$large}{
-    font-size: 325%;
+    font-size: 290%;
   }
 }
 
@@ -26,11 +26,18 @@ p{
 }
 
 blockquote{
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-family: Cardo;
   line-height: 1.42em;
-  margin: 0;
+  margin: 1rem 0;
   text-align: left;
+
+  @media #{$small}{
+    margin: 1rem -2rem;
+    text-align: center;
+  }
+
+
 
   p{
     font-size: inherit;
@@ -47,6 +54,7 @@ h1{
     font-size: 2.7rem; 
     @extend .is-text__centered;
     @extend .block-border;
+    padding-bottom: 1rem;
 }
 
 h2{
@@ -69,4 +77,9 @@ h5{
 h6{
   font-size: .5rem;
   color: $white;
+}
+
+hr{
+  border: solid 1px $orange;
+  margin: 0;
 }

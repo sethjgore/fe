@@ -1,5 +1,10 @@
+.logo-as-background{
+  background: image-url('logo_tilted.svg') no-repeat center center;
+  background-size: contain;
+}
 #nav-logo{
-	background: image-url('logo_tilted.svg') no-repeat .5em;
+  @extend .logo-as-background;
+	background-position: .5em;
 	background-size: 50px 100%;
 	padding-left: 0em;
 
@@ -32,6 +37,7 @@
 nav{
   a{
     text-decoration: none;
+    border: none;
   
     &:hover{
       color: $orange !important;

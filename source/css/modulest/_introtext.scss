@@ -1,5 +1,4 @@
 
-
 .block-introtext{
   @extend .block__splash;
   
@@ -10,15 +9,40 @@
     bottom: -60vh;
 }
 
-.introtext__first-line{
-  color: $white;
+.introtext__box{
+  height: 100vh;
 }
+
+.introtext__first-line{
+  position: absolute;
+  color: $white;
+  font-size: 3.1;
+  left: 1rem;
+  right: 1rem;
+  bottom: 15vh;
+
+  @media #{$small}{
+    font-size: 4.5rem;
+    bottom: 8vh;
+  }
+}
+
+.introtext__transparent{
+  color: rgba(255,255,255,.5);
+}
+
 .introtext__second-line{
   border-bottom: none;
   color: rgba(255,255,255,.5); 
   position: relative;
-  top: -7rem;
+  top: -1.1rem;
+
+  @media #{$small}{
+    top: -1.8rem;
+    @extend .text__extralarge;
+  }
 }
+
 .intro-text-message{
 	//@include transition-delay(2s);
 	color: $main;
