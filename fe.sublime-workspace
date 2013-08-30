@@ -43,46 +43,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "source/layouts/_nav.haml",
-			"settings":
-			{
-				"buffer_size": 642,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "source/css/styleguide/typography/_typography.scss",
-			"settings":
-			{
-				"buffer_size": 777,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "source/css/modulest/_nav.scss",
-			"settings":
-			{
-				"buffer_size": 923,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "source/layouts/project-stand-alone.haml",
-			"settings":
-			{
-				"buffer_size": 531,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "source/css/_settings.scss",
-			"settings":
-			{
-				"buffer_size": 31427,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -231,47 +191,57 @@
 	},
 	"file_history":
 	[
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_row.scss",
-		"/Users/user/Dropbox/Web/fe/source/about.html.haml",
-		"/Users/user/Dropbox/Web/fe/source/kitchensink.html.haml",
-		"/Users/user/Dropbox/Web/fe/source/css/_settings.scss",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_body.scss",
-		"/Users/user/Dropbox/Web/fe/source/css/styleguide/typography/_typography.scss",
-		"/Users/user/Dropbox/Web/fe/source/css/_foundation-modules.scss",
-		"/Users/user/Dropbox/Web/fe/source/css/app.css.scss",
-		"/Users/user/Dropbox/Web/fe/source/layouts/project-stand-alone.haml",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_soul.scss",
 		"/Users/user/Dropbox/Web/fe/source/layouts/_nav.haml",
+		"/Users/user/Dropbox/Web/fe/source/layouts/_scripts.haml",
+		"/Users/user/Dropbox/Web/fe/source/js/script.js.coffee",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_nav.scss",
+		"/Users/user/Dropbox/Web/fe/source/index.html.haml",
+		"/Users/user/Dropbox/Web/fe/source/soul.html.haml",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_introtext.scss",
+		"/Users/user/Dropbox/Web/fe/config.rb",
+		"/Users/user/Dropbox/Web/fe/source/css/_settings.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/app.css.scss",
+		"/Users/user/Dropbox/Web/fe/source/layouts/layout.haml",
+		"/Users/user/Dropbox/Web/fe/source/layouts/_cards.haml",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_mailchimp.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_section-splash.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/styleguide/_palette.scss",
+		"/Users/user/Dropbox/Web/fe/source/_soul.scss",
+		"/Users/user/Dropbox/Web/fe/source/services.html.haml",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_section-background.scss",
+		"/Users/user/Dropbox/Web/fe/Gemfile",
+		"/Users/user/Dropbox/Web/fe/.devprocess",
+		"/Users/user/Dropbox/Web/fe/source/about.html.haml",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_mark.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/styleguide/typography/_typography.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_about.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_links.scss",
+		"/Users/user/Dropbox/Web/fe/source/layouts/_moreinfo.haml",
+		"/Users/user/Dropbox/Web/fe/source/css/styleguide/_fonts.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_row.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_block-quote.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_block-border.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_body.scss",
+		"/Users/user/Dropbox/Web/fe/source/kitchensink.html.haml",
+		"/Users/user/Dropbox/Web/fe/source/css/_foundation-modules.scss",
+		"/Users/user/Dropbox/Web/fe/source/layouts/project-stand-alone.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/styleguide/typography/_h.scss",
 		"/Users/user/Dropbox/Web/fe/source/layouts/kitchensink.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_projectsingle.scss",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_block-quote.scss",
-		"/Users/user/Dropbox/Web/fe/source/layouts/_cards.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_splash-box.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_cards.scss",
 		"/Users/user/Dropbox/Web/fe/source/layouts/project.haml",
 		"/Users/user/Dropbox/Web/fe/source/projects.html.haml",
-		"/Users/user/Dropbox/Web/fe/source/css/styleguide/_fonts.scss",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_about.scss",
-		"/Users/user/Dropbox/Web/fe/source/css/styleguide/_palette.scss",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_mark.scss",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_nav.scss",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_links.scss",
-		"/Users/user/Dropbox/Web/fe/config.rb",
-		"/Users/user/Dropbox/Web/fe/Gemfile",
 		"/Users/user/Dropbox/Web/fe/source/projects/2013-08-08-projecthumanity.html.md",
 		"/Users/user/Dropbox/Web/fe/source/css/styleguide/typography/_is.scss",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_block-border.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_button.scss",
-		"/Users/user/Dropbox/Web/fe/source/index.html.haml",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_introtext.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/styleguide/typography/_p.scss",
-		"/Users/user/Dropbox/Web/fe/source/layouts/layout.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_kitchensink.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_is.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_typography.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/_typography.scss",
 		"/Users/user/Dropbox/Web/fe/source/js/foundation/foundation.js",
-		"/Users/user/Dropbox/Web/fe/source/layouts/_moreinfo.haml",
 		"/Users/user/Dropbox/Web/fe/source/projects/2013-08-07-audacitytoexist.md",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_eyeexam.scss",
 		"/Users/user/Dropbox/Web/fe/source/layouts/_footer.haml",
@@ -306,13 +276,10 @@
 		"/Users/user/Dropbox/Web/fe/.todo",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_footer.scss",
 		"/Users/user/Dropbox/Web/fe/Gemfile.lock",
-		"/Users/user/Dropbox/Web/fe/source/js/script.js.coffee",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_now.scss",
-		"/Users/user/Dropbox/Web/fe/source/layouts/_scripts.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/styleguide/_type.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_motto.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/nav.scss",
-		"/Users/user/Dropbox/Web/fe/.devprocess",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_0transitions.scss",
 		"/Users/user/Dropbox/Web/fe/Rakefile",
 		"/Users/user/Dropbox/Web/fe/source/layouts/layout.erb",
@@ -324,7 +291,6 @@
 		"/Users/user/.zshrc",
 		"/Users/user/.bash_profile",
 		"/Users/user/.zshenv",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_mailchimp.scss",
 		"/Users/user/Dropbox/Web/fe/source/haml.html.haml",
 		"/Users/user/Dropbox/Web/fe/source/haml.html",
 		"/Users/user/Dropbox/Web/sethjg/Gemfile.lock",
@@ -352,13 +318,7 @@
 		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/modules/view-animation.scss",
 		"/Users/user/Dropbox/Web/sethjgre/config.rb",
 		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/app.css.scss",
-		"/Users/user/Dropbox/Web/sethjgre/build/javascripts/all.js",
-		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/master/_variables.scss",
-		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/modules/_loading.scss",
-		"/Users/user/Dropbox/Web/sethjgre/source/layouts/layout.haml",
-		"/Users/user/Dropbox/Web/sethjgre/source/robots.txt",
-		"/Users/user/Dropbox/Web/sethjgre/source/layouts/index.html.haml",
-		"/Users/user/Dropbox/Web/sethjgre/source/hello.html.haml"
+		"/Users/user/Dropbox/Web/sethjgre/build/javascripts/all.js"
 	],
 	"find":
 	{
@@ -376,6 +336,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"}{",
+			".soul-signatures",
+			"soul-signatures",
+			"%h5",
+			"l(sig",
+			"signa",
+			"soul__signatures",
+			".row.block-border__light\n  \n  .small-12.columns\n    :markdown\n      ## Expose \n\n  .small-12.columns.large-5\n    .flex-video\n      <iframe width=\"350\" height=\"197\" src=\"http://www.youtube.com/embed/VFAB9e48_pk\" frameborder=\"0\" allowfullscreen></iframe>\n\n  .small-12.columns.large-7\n    :markdown\n      >There are few tools as powerful as mass media for shifting ideology. We utilize media as an activism tool: Cinemactivism.\n\n\n.row\n  \n  .small-12.columns\n    :markdown\n      ## Organize\n\n  .small-12.columns.large-5\n    .flex-video\n      <iframe width=\"350\" height=\"197\" src=\"http://www.youtube.com/embed/VFAB9e48_pk\" frameborder=\"0\" allowfullscreen></iframe>\n\n  .small-12.columns.large-7\n    :markdown\n      >We believe that change cannot happen without action. We are available to support your community in organizing for ",
+			".block-quote",
+			".flex-video",
+			"flex",
+			".block-quote",
 			".butt",
 			"button",
 			"%",
@@ -488,170 +460,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "source/layouts/_nav.haml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 642,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								288,
-								288
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "source/css/styleguide/typography/_typography.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 777,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								39,
-								81
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 2,
-					"file": "source/css/modulest/_nav.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 923,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								151,
-								151
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "source/layouts/project-stand-alone.haml",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 531,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 4,
-					"file": "source/css/_settings.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 31427,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								30639,
-								30639
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 15525.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 34.0
 	},
 	"input":
 	{
@@ -710,36 +536,144 @@
 		"selected_items":
 		[
 			[
-				"typ",
-				"source/css/styleguide/typography/_typography.scss"
+				"scr",
+				"source/layouts/_scripts.haml"
 			],
 			[
 				"nav",
-				"source/css/modulest/_nav.scss"
+				"source/layouts/_nav.haml"
+			],
+			[
+				"index",
+				"source/index.html.haml"
+			],
+			[
+				"confi",
+				"config.rb"
+			],
+			[
+				"intro",
+				"source/css/modulest/_introtext.scss"
+			],
+			[
+				"conf",
+				"config.rb"
+			],
+			[
+				"soul",
+				"source/css/modulest/_soul.scss"
 			],
 			[
 				"sett",
 				"source/css/_settings.scss"
 			],
 			[
+				"scripts",
+				"source/layouts/_scripts.haml"
+			],
+			[
+				"lay",
+				"source/layouts/layout.haml"
+			],
+			[
+				"app",
+				"source/css/app.css.scss"
+			],
+			[
+				"pal",
+				"source/css/styleguide/_palette.scss"
+			],
+			[
+				"cards",
+				"source/layouts/_cards.haml"
+			],
+			[
+				"sec",
+				"source/css/modulest/_section-splash.scss"
+			],
+			[
+				"email",
+				"source/css/modulest/_mailchimp.scss"
+			],
+			[
+				"section",
+				"source/css/modulest/_section-splash.scss"
+			],
+			[
+				"inde",
+				"source/index.html.haml"
+			],
+			[
+				"",
+				"Gemfile"
+			],
+			[
+				"about",
+				"source/css/modulest/_about.scss"
+			],
+			[
+				"typo",
+				"source/css/styleguide/typography/_typography.scss"
+			],
+			[
+				"mail",
+				"source/layouts/_moreinfo.haml"
+			],
+			[
+				"link",
+				"source/css/modulest/_links.scss"
+			],
+			[
+				"mark",
+				"source/css/modulest/_mark.scss"
+			],
+			[
+				"intr",
+				"source/css/modulest/_introtext.scss"
+			],
+			[
+				"aab",
+				"source/about.html.haml"
+			],
+			[
 				"row",
 				"source/css/modulest/_row.scss"
+			],
+			[
+				"blockquote",
+				"source/css/modulest/_block-quote.scss"
+			],
+			[
+				"font",
+				"source/css/styleguide/_fonts.scss"
+			],
+			[
+				"fonts",
+				"source/css/styleguide/_fonts.scss"
+			],
+			[
+				"block",
+				"source/css/modulest/_block-border.scss"
 			],
 			[
 				"body",
 				"source/css/modulest/_body.scss"
 			],
 			[
-				"about",
-				"source/about.html.haml"
-			],
-			[
-				"set",
-				"source/css/_settings.scss"
+				"config",
+				"config.rb"
 			],
 			[
 				"kitche",
 				"source/kitchensink.html.haml"
+			],
+			[
+				"typ",
+				"source/css/styleguide/typography/_typography.scss"
+			],
+			[
+				"set",
+				"source/css/_settings.scss"
 			],
 			[
 				"kitchen",
@@ -782,44 +716,20 @@
 				"source/css/modulest/_projectsingle.scss"
 			],
 			[
-				"cards",
-				"source/layouts/_cards.haml"
-			],
-			[
-				"block",
-				"source/css/modulest/_block-quote.scss"
-			],
-			[
 				"pro",
 				"source/layouts/project.haml"
-			],
-			[
-				"typo",
-				"source/css/styleguide/typography/_typography.scss"
 			],
 			[
 				"foundation-mod",
 				"source/css/_foundation-modules.scss"
 			],
 			[
-				"app",
-				"source/css/app.css.scss"
-			],
-			[
 				"foundation-",
 				"source/css/_foundation-modules.scss"
 			],
 			[
-				"mark",
-				"source/css/modulest/_mark.scss"
-			],
-			[
 				"c",
 				"source/css/modulest/_cards.scss"
-			],
-			[
-				"pal",
-				"source/css/styleguide/_palette.scss"
 			],
 			[
 				"foundation",
@@ -830,16 +740,8 @@
 				"source/about.html.haml"
 			],
 			[
-				"fonts",
-				"source/css/styleguide/_fonts.scss"
-			],
-			[
 				"card",
 				"source/css/modulest/_cards.scss"
-			],
-			[
-				"confi",
-				"config.rb"
 			],
 			[
 				"proje",
@@ -862,20 +764,8 @@
 				"source/css/modulest/_projectsingle.scss"
 			],
 			[
-				"inde",
-				"source/index.html.haml"
-			],
-			[
-				"intr",
-				"source/css/modulest/_introtext.scss"
-			],
-			[
 				"kitchens",
 				"source/css/modulest/_kitchensink.scss"
-			],
-			[
-				"",
-				"source/css/styleguide/typography/_h.scss"
 			],
 			[
 				"ab",
@@ -884,14 +774,6 @@
 			[
 				"proj",
 				"source/layouts/project.haml"
-			],
-			[
-				"lay",
-				"source/layouts/layout.haml"
-			],
-			[
-				"intro",
-				"source/css/modulest/_introtext.scss"
 			],
 			[
 				"project-st",
@@ -934,16 +816,8 @@
 				"source/layouts/_footer.haml"
 			],
 			[
-				"index",
-				"source/index.html.haml"
-			],
-			[
 				".haml",
 				"source/layouts/layout.haml"
-			],
-			[
-				"font",
-				"source/css/styleguide/_fonts.scss"
 			],
 			[
 				"doing",
@@ -952,10 +826,6 @@
 			[
 				"style",
 				"source/css/styleguide/_palette.scss"
-			],
-			[
-				"config",
-				"config.rb"
 			],
 			[
 				"gener",
@@ -972,10 +842,6 @@
 			[
 				"projecthuma",
 				"source/projects/2013-08-08-projecthumanity.html.md"
-			],
-			[
-				"conf",
-				"config.rb"
 			],
 			[
 				"blog",
@@ -1180,14 +1046,6 @@
 			[
 				"siphon",
 				"siphon.haml"
-			],
-			[
-				".js",
-				"js/libs/jquery.fittext.js"
-			],
-			[
-				"sipho",
-				"labs/siphon.js"
 			]
 		],
 		"width": 0.0
