@@ -11,5 +11,10 @@
 
 .section-splash__box + div,
 .section-splash__box + section {
-  margin-top: 100vh;
+  margin-top: 100vh;  
+
+  &.section-splash__margin-bottom{
+    margin-bottom: 3vh; // for nice marginal space
+
+  }
 }

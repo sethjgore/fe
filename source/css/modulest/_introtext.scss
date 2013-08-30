@@ -39,7 +39,6 @@
 
   @media #{$small}{
     top: -1.8rem;
-    @extend .text__extralarge;
   }
 }
 
@@ -50,10 +49,4 @@
 
 .intro-video{
 	//@include transition-delay(3.5s);
-}
-
-.intro-email{
-	//@include transition-delay(4s);
-  position: relative;
-  top: -12rem;
 }

@@ -47,6 +47,7 @@ nav{
 .nav-fixed{
   position: fixed;
   bottom: 0;
+  z-index: 99999;
 }
 
 .nav-links__override a{

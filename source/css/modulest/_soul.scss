@@ -1,0 +1,43 @@
+.soul-signatures__box{
+  &.main{
+    @media #{$small}{
+      display: none;
+    }
+  }
+
+  &.secondary{
+    display: none;
+
+    @media #{$small}{
+      display: block;
+    }
+  }
+}
+.soul-signatures__signed{
+  height: 1.4rem;
+  background-size: contain !important;
+  background-position: center center !important;
+}
+
+.soul-signatures__name{
+    text-align: center;
+}
+
+
+.soul-signature__alison{
+  background: image-url('signatures/alison-01.png') no-repeat;
+}
+
+.soul-signature__ryan{
+  background: image-url('signatures/ryan-02.png') no-repeat;
+
+}
+
+.soul-signature__kenya{
+  background: image-url('signatures/kenya-03.png') no-repeat;
+
+}
+
+.soul-signature__staffimage{
+  background: image-url('staff.jpg') top center no-repeat;
+}
