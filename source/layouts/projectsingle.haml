@@ -3,13 +3,16 @@
     .projectsingle__box
       .row
         .small-12.columns
-          .projectsingle__playbutton
           %h1.projectsingle__title
             = current_page.data.title
-          .button.projectsingle__donate
-            Support this project
-
-        
+%section.projectsingle__infobar
+  .row
+    .small-6.columns
+      .projectsingle__playbutton
+    .small-6.columns
+      .button.secondary.radius.projectsingle__donate
+        Support this project
+%section
   .row
     .small-12.columns
       %h2.is-text__centered
