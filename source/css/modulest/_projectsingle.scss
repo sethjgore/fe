@@ -25,6 +25,7 @@
 }
 .projectsingle__title{
     color: $white;
+    @extend .is-text__shadowed;
 }
 
 .projectsingle__summary{
