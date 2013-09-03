@@ -2,16 +2,19 @@
   .projectsingle__splash{:style => "background : url('/projects/#{current_page.data.title}/#{current_page.data.splashimage}') center center no-repeat;"}
     .projectsingle__box
       .row
-        .small-10.columns.small-offset-2
+        .small-12.columns
           .projectsingle__playbutton
           %h1.projectsingle__title
             = current_page.data.title
+          .button.projectsingle__donate
+            Support this project
+
         
   .row
     .small-12.columns
       %h2.is-text__centered
         = current_page.data.summary  
-    = yield
+      = yield
     .small-12.columns
       %h2 
         = link_to 'Back to Projects', '/projects.html'

@@ -18,7 +18,6 @@
 }
 .projectsingle__title{
     color: $white;
-    text-align: right;
 }
 
 .projectsingle__summary{
@@ -32,13 +31,17 @@
 .projectsingle__playbutton{
   background: image-url('playbutton.svg') no-repeat;
   background-size: contain;
-  height: 3rem;
-  width: 3rem;
+  height: 2rem;
   opacity: .4;
   position: absolute;
-  right: 0;
   top: -2rem;
+  padding-left: 2rem; 
   &:hover{
     opacity: 1;
   }
+}
+
+.projectsingle__donate{
+  position: absolute;
+  right: .8rem;
 }
