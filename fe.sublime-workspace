@@ -47,9 +47,17 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 127.0,
+		"height": 67.0,
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
@@ -61,10 +69,6 @@
 			[
 				"user",
 				"Preferences: Settings - User"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"remove",
@@ -192,20 +196,23 @@
 	"file_history":
 	[
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_soul.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_body.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_section-splash.scss",
+		"/Users/user/Dropbox/Web/fe/source/layouts/_mailchimp.haml",
+		"/Users/user/Dropbox/Web/fe/source/soul.html.haml",
+		"/Users/user/Dropbox/Web/fe/source/kitchensink.html.haml",
+		"/Users/user/Dropbox/Web/fe/source/index.html.haml",
+		"/Users/user/Dropbox/Web/fe/source/layouts/layout.haml",
 		"/Users/user/Dropbox/Web/fe/source/layouts/_nav.haml",
 		"/Users/user/Dropbox/Web/fe/source/layouts/_scripts.haml",
 		"/Users/user/Dropbox/Web/fe/source/js/script.js.coffee",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_nav.scss",
-		"/Users/user/Dropbox/Web/fe/source/index.html.haml",
-		"/Users/user/Dropbox/Web/fe/source/soul.html.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_introtext.scss",
 		"/Users/user/Dropbox/Web/fe/config.rb",
 		"/Users/user/Dropbox/Web/fe/source/css/_settings.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/app.css.scss",
-		"/Users/user/Dropbox/Web/fe/source/layouts/layout.haml",
 		"/Users/user/Dropbox/Web/fe/source/layouts/_cards.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_mailchimp.scss",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_section-splash.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/styleguide/_palette.scss",
 		"/Users/user/Dropbox/Web/fe/source/_soul.scss",
 		"/Users/user/Dropbox/Web/fe/source/services.html.haml",
@@ -222,8 +229,6 @@
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_row.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_block-quote.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_block-border.scss",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_body.scss",
-		"/Users/user/Dropbox/Web/fe/source/kitchensink.html.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/_foundation-modules.scss",
 		"/Users/user/Dropbox/Web/fe/source/layouts/project-stand-alone.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/styleguide/typography/_h.scss",
@@ -317,8 +322,7 @@
 		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/playground.css.scss",
 		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/modules/view-animation.scss",
 		"/Users/user/Dropbox/Web/sethjgre/config.rb",
-		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/app.css.scss",
-		"/Users/user/Dropbox/Web/sethjgre/build/javascripts/all.js"
+		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/app.css.scss"
 	],
 	"find":
 	{
@@ -536,6 +540,22 @@
 		"selected_items":
 		[
 			[
+				"sect",
+				"source/css/modulest/_section-splash.scss"
+			],
+			[
+				"layout",
+				"source/layouts/layout.haml"
+			],
+			[
+				"inde",
+				"source/index.html.haml"
+			],
+			[
+				"soul",
+				"source/soul.html.haml"
+			],
+			[
 				"scr",
 				"source/layouts/_scripts.haml"
 			],
@@ -558,10 +578,6 @@
 			[
 				"conf",
 				"config.rb"
-			],
-			[
-				"soul",
-				"source/css/modulest/_soul.scss"
 			],
 			[
 				"sett",
@@ -598,10 +614,6 @@
 			[
 				"section",
 				"source/css/modulest/_section-splash.scss"
-			],
-			[
-				"inde",
-				"source/index.html.haml"
 			],
 			[
 				"",
@@ -892,10 +904,6 @@
 				"source/js/all.js"
 			],
 			[
-				"layout",
-				"source/layouts/layout.haml"
-			],
-			[
 				"todo",
 				".todo"
 			],
@@ -1042,10 +1050,6 @@
 			[
 				"labs",
 				"css/labs/_labs.scss"
-			],
-			[
-				"siphon",
-				"siphon.haml"
 			]
 		],
 		"width": 0.0

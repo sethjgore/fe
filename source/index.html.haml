@@ -15,23 +15,11 @@ title: Index
       %figure#about-logo   
       %h1 Facundo Element
       :markdown
-        ##We do three things, and three things best. We <a href="#">train</a>. We <a href="#">expose</a>. We <a href="#">organize</a>. 
+        ##We do three things: We <a href="#service-train">train</a>. We <a href="#service-expose">expose</a>. We <a href="#service-organize">organize</a>. 
 
-        ##We are your portable activists - we will fight alongside you. We will teach with you. We will show change through you.
+        ##We are activists. We will fight alongside you. We will learn from you and teach with you. We will show change through you. 
 
-  .row
-    #mc_embed_signup
-      %form#mc-embedded-subscribe-form.validate.general-email-form{:action => "http://facundoelement.us2.list-manage.com/subscribe/post?u=3de55524557b0c6ca0b410f49&amp;id=9ddac7376d", :method => "post", :name => "mc-embedded-subscribe-form", :novalidate => "", :target => "_blank"}
-        .small-12.columns
-          .mc-field-group
-            %label{:for => "mce-EMAIL"}
-            %input#mce-EMAIL.required.email{:name => "EMAIL", :type => "email", :value => "Email"}
-
-          #mce-responses.clear
-            #mce-error-response.response{:style => "display:none"}
-            #mce-success-response.response{:style => "display:none"}
-        .small-12.columns.is-text__centered
-          %input#mc-embedded-subscribe.button.radius{:name => "subscribe", :type => "submit", :value => "Join Us Today!"}
+  =partial 'layouts/mailchimp'
 
 
 
