@@ -1,14 +1,24 @@
 .projectsingle__splash{
   @extend .block__splash;
   position: relative;
+  
+  /*
   h1{
     border-bottom: none;
     top: 20rem;
     position: relative;
   }
+  */
+
+}
+
+.projectsingle__box{
+  position: relative;
+  top: 30vh;
 }
 .projectsingle__title{
     color: $white;
+    text-align: right;
 }
 
 .projectsingle__summary{
@@ -17,4 +27,18 @@
   @extend .is-text__centered;
   position: relative;
   top: -8rem;
+}
+
+.projectsingle__playbutton{
+  background: image-url('playbutton.svg') no-repeat;
+  background-size: contain;
+  height: 3rem;
+  width: 3rem;
+  opacity: .4;
+  position: absolute;
+  right: 0;
+  top: -2rem;
+  &:hover{
+    opacity: 1;
+  }
 }

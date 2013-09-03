@@ -43,7 +43,7 @@ activate :blog do |blog|
 
   blog.prefix = "projects"
   blog.permalink = ":title"
-  blog.layout = "project-stand-alone"
+  blog.layout = "projectsingle"
   blog.default_extension = ".md"
 
 end
