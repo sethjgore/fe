@@ -9,5 +9,5 @@ gem "compass"
 gem "middleman-blog"
 gem "middleman-sprockets", :git => "git://github.com/middleman/middleman-sprockets.git"
 gem "redcarpet"
-gem "middleman-imageoptim", "~> 0.0.4"
+gem 'middleman-imageoptim', '~> 0.0.4'
 gem "middleman-minify-html"

@@ -5,16 +5,19 @@ page "/projects.html",  :layout => :project
 
 #SET DIRECTORIES OF IMG / JS / CSS
 set :css_dir, 'css'
-
 set :js_dir, 'js'
-
 set :images_dir, 'img'
 
+#SET MARKDOWN ENGINE CHOICE
+set :markdown_engine, :redcarpet
+
+#ACTIVATE LIVERELOAD SERVER
 activate :livereload
-activate :cache_buster
-activate :image_optim
+
+activate :directory_indexes
 activate :gzip
 activate :minify_html
+activate :image_optim
 
 #WHEN LAND PROJECT/* DODO? && BLOG PREFERENCES
 activate :blog do |blog|
@@ -42,11 +45,9 @@ set :relative_links, true
 sass_options = {:debug_info => true}
 sass_options = {:sourcemap => true}
 
-set :markdown_engine, :redcarpet
-
-
 #WHEN BUILDING SITE, DODO? 
 configure :build do
+  
   # For example, change the Compass output style for deployment
   activate :minify_css
 
@@ -54,11 +55,14 @@ configure :build do
   activate :minify_javascript
 
   # Enable cache buster
-  activate :cache_buster
+  #activate :cache_buster
 
   # Use relative URLs
   activate :relative_assets
 
   activate :directory_indexes
   activate :gzip
+  activate :minify_html
+  activate :image_optim
+
 end
