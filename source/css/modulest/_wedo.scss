@@ -1,0 +1,52 @@
+.we-do__box{
+  background: rgb(21, 29, 8);
+  overflow: hidden;
+  position: relative;
+  z-index: 3;
+  box-shadow: inset 0 0.6rem 0rem rgba(119, 118, 118, 0.24), 
+              inset 0 -0.6rem 0.5rem rgba(0, 0, 0, 0.4);
+      padding: 2.5rem 0;
+
+  &:before{
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    content: ""; 
+    opacity: .3;
+  }
+
+  h1, blockquote{
+    color: $white;
+  }
+};
+
+.we-do__train{
+  @extend .we-do__box;
+
+  &:before{
+    background: image-url('we-do/train.JPG') no-repeat;
+    background-size: cover;
+  }
+}
+
+.we-do__expose{
+  @extend .we-do__box;
+
+  &:before{
+    background: image-url('we-do/expose.jpg') center center no-repeat;
+    background-size: cover;
+  }
+}
+
+.we-do__organize{
+  @extend .we-do__box;
+
+  &:before{
+    background: image-url('we-do/organize.JPG') no-repeat;
+    background-size: cover;
+  }
+}

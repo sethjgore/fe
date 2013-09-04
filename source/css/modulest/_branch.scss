@@ -1,0 +1,6 @@
+.block-branch + div{
+  @media #{$small}{
+    width: 550px;
+    margin: 0 auto;
+  } 
+}

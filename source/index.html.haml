@@ -16,75 +16,62 @@ title: Index
       %figure#about-logo   
       %h1 Facundo Element
       :markdown
-        ##We do three things: We <a href="#service-train">train</a>. We <a href="#service-expose">expose</a>. We <a href="#service-organize">organize</a>. 
+        ##We do three things: We <a href="#we-do__train">train</a>. We <a href="#we-do__expose">expose</a>. We <a href="#we-do__organize">organize</a>. 
 
         ##We are activists. We will fight alongside you. We will learn from you and teach with you. We will show change through you. 
 
   =partial 'layouts/mailchimp'
 
-%section.section-background__textured
-  .row.block-border__light
-    
-    .small-12.columns
-      :markdown
-        # What we can do
-    .small-12.columns
-      :markdown
-        ## Train
-
-    .small-12.columns.large-5
-      .flex-video
-        <iframe width="350" height="197" src="http://www.youtube.com/embed/VFAB9e48_pk" frameborder="0" allowfullscreen></iframe>
-
-    .small-12.columns.large-7
-      :markdown
-        We provide training on a range of topics, from reframing to transforming Deaf education to anti-audism work. Our training style mostly involves hands on activities.
-
-  .row.block-border__light
-    
-    .small-12.columns
-      :markdown
-        ## Expose 
-
-    .small-12.columns.large-5
-      .flex-video
-        <iframe width="350" height="197" src="http://www.youtube.com/embed/VFAB9e48_pk" frameborder="0" allowfullscreen></iframe>
-
-    .small-12.columns.large-7
-      :markdown
-        There are few tools as powerful as mass media for shifting ideology. We utilize media as an activism tool: Cinemactivism.
-
+%section.we-do__train#we-do__train 
   .row
     
-    .small-12.columns
+    .small-10.columns.small-centered
       :markdown
-        ## Organize
+        # TRAIN
 
-    .small-12.columns.large-5
-      .flex-video
-        <iframe width="350" height="197" src="http://www.youtube.com/embed/VFAB9e48_pk" frameborder="0" allowfullscreen></iframe>
+    -#
+      .small-10.columns.small-centered.large-5
+        .flex-video
+          <iframe width="350" height="197" src="http://www.youtube.com/embed/VFAB9e48_pk" frameborder="0" allowfullscreen></iframe>
 
-    .small-12.columns.large-7
+    .small-10.columns.small-centered
       :markdown
-        We believe that change cannot happen without action. We are available to support your community in organizing for change.
+        >We provide training on a range of topics, from reframing to transforming Deaf education to anti-audism work. Our training style mostly involves hands on activities.
 
--#
-  .section.section-background__orange
-    .row
-      .small-12.columns
-        %h2.is-text__centered 
-          CHANGE WITH US. 
-  
+%section.we-do__expose#we-do__expose
   .row
-    #mc_embed_signup
-      %form#mc-embedded-subscribe-form.validate.general-email-form{:action => "http://facundoelement.us2.list-manage.com/subscribe/post?u=3de55524557b0c6ca0b410f49&amp;id=9ddac7376d", :method => "post", :name => "mc-embedded-subscribe-form", :novalidate => "", :target => "_blank"}
-        .small-12.columns
-          .mc-field-group
-            %label{:for => "mce-EMAIL"}
-            %input#mce-EMAIL.required.email{:name => "EMAIL", :type => "email", :value => "Email"}
+    .small-10.columns.small-centered
+      :markdown
+        # EXPOSE 
 
-          #mce-responses.clear
-            #mce-error-response.response{:style => "display:none"}
-            #mce-success-response.response{:style => "display:none"}
-        .small-12.columns.is-text__centered
-          %input#mc-embedded-subscribe.button.radius{:name => "subscribe", :type => "submit", :value => "Join Us Today!"}
+    -#
+      .small-10.columns.small-centered.large-5
+        .flex-video
+          <iframe width="350" height="197" src="http://www.youtube.com/embed/VFAB9e48_pk" frameborder="0" allowfullscreen></iframe>
+
+    .small-10.columns.small-centered
+      :markdown
+        >There are few tools as powerful as mass media for shifting ideology. We utilize media as an activism tool: Cinemactivism.
+
+%section.we-do__organize#we-do__organize 
+  .row
+    .small-10.columns.small-centered
+      :markdown
+        # ORGANIZE
+
+    -#
+      .small-10.columns.small-centered.large-5
+        .flex-video
+          <iframe width="350" height="197" src="http://www.youtube.com/embed/VFAB9e48_pk" frameborder="0" allowfullscreen></iframe>
+
+    .small-10.columns.small-centered
+      :markdown
+        >We believe that change cannot happen without action. We are available to support your community in organizing for change.
+
+.section.section-background__textured
+  .row
+    .small-10.columns.small-centered
+      :markdown
+        >The first step is ***action***. Take things in your hands through your inbox. Begin, restart, continue — whatever it takes — your journey here. 
+
+  = partial "layouts/mailchimp"

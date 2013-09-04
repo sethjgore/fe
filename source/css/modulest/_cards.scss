@@ -7,7 +7,12 @@
 	border: 1px $gray-light solid;
   overflow: hidden;
   margin-bottom: 1rem;
-  height: 7rem;
+  height: 10rem;
+
+  @media #{$small}{
+    height: 7rem;
+  }
+  
 
   .cards__title, .cards__summary{
     color: $white;
@@ -16,9 +21,8 @@
   }
 
   .cards__title-wrapper{
-    position: absolute;
-    bottom: .5rem;
-    width: 80%;
+    position: relative;
+    top: 1rem;
   }
 }
 
