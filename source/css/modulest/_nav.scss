@@ -2,6 +2,104 @@
   background: image-url('logo_tilted.svg') no-repeat center center;
   background-size: contain;
 }
+
+.nav__fixed{
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+
+}
+
+.nav__fixed,
+.nav__fixed> *,
+.nav__fixed *     {
+  @include transition(.5s all 0s);
+}
+
+.nav__box:hover{
+  @include transform(translateX(.5rem));
+}
+
+.nav__box{
+  width:  2rem;
+  height: 2rem;
+  background: $gray-dark;
+  overflow: hidden;
+  margin: 0 0 .4rem .4rem;
+  border-radius: .2rem;
+  box-shadow: 0px 0px 0 rgb(35,35,35)
+              ,-1px 1px 0 rgb(30,30,30)
+              ,-2px 2px 0 rgb(25,25,25)
+              ,-3px 3px 0 rgb(19,19,19)
+              ,-4px 4px 0 rgb(14,14,14)
+              ,-5px 5px 0 rgb(9,9,9), -6px 6px 0 rgb(4,4,4)
+              ,-7px 7px 1px rgba(0,0,0,0.5)
+              ,0px 0px 6px rgba(0,0,0,.2);
+
+  position: absolute;
+  top: 1.9rem; 
+  right: -3rem;
+  
+  z-index: 10;
+
+  @media #{$small}{
+    margin: 0 0 .6rem .6rem;
+  }
+}
+
+.nav__logo{
+  @extend .logo-as-background;
+  height: 100%;
+  width: 100%;
+} 
+
+.nav__menu{
+  background: $gray-dark;
+  height: 100vh;
+  position: relative;
+  z-index: 5;
+  width: 8rem;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav__menu-title{
+  color: $white;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+.nav__menu-list{
+  padding: 0;
+  margin: 0;
+
+  a{
+    @extend .nav__menu-links;
+    color: $orange;
+    font-family: $type-light;
+  }
+
+  li{
+    list-style: none;
+  }
+}
+
+.nav__menu-links{
+  padding-left: 1rem;
+  width: 8rem;
+  display: block;
+  border-bottom: none;
+}
+
+.j-section-nav{
+  @include transform(translateX(-8.2rem));
+  
+  &.reveal{
+    @include transform(translateX(0rem));
+  }
+}
+
+
+/*
 #nav-logo{
   @extend .logo-as-background;
 	background-position: .5em;
@@ -74,3 +172,4 @@ nav{
   }
 
 }
+*/

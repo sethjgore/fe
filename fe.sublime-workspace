@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"j",
+				"j-nav__menu"
+			],
+			[
+				"trans",
+				"translateX"
+			],
+			[
 				"background",
 				"background__textured"
 			],
@@ -18,10 +26,6 @@
 			[
 				"st",
 				"Settings"
-			],
-			[
-				"trans",
-				"translateY"
 			],
 			[
 				"mi",
@@ -52,50 +56,68 @@
 	"buffers":
 	[
 		{
-			"file": "source/layouts/projectsingle.haml",
+			"file": "source/css/modulest/_nav.scss",
 			"settings":
 			{
-				"buffer_size": 998,
+				"buffer_size": 2666,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "source/css/modulest/_branch.scss",
+			"file": "source/layouts/layout.haml",
 			"settings":
 			{
-				"buffer_size": 160,
+				"buffer_size": 420,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "source/about.html.haml",
+			"file": "source/css/modulest/_nav-mine.scss",
 			"settings":
 			{
-				"buffer_size": 1562,
+				"buffer_size": 67,
+				"line_ending": "Unix",
+				"name": ".nav__fixed{"
+			}
+		},
+		{
+			"file": "source/css/modulest/_body.scss",
+			"settings":
+			{
+				"buffer_size": 145,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "source/layouts/_blogprevnext.haml",
+			"file": "source/js/nav.js.coffee",
 			"settings":
 			{
-				"buffer_size": 513,
+				"buffer_size": 90,
+				"line_ending": "Unix",
+				"name": "jQuery ($) ->"
+			}
+		},
+		{
+			"file": "source/js/cards.js.coffee",
+			"settings":
+			{
+				"buffer_size": 206,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "source/projects/2013-08-07-audacitytoexist.md",
+			"file": "source/layouts/_nav-mine.haml",
 			"settings":
 			{
-				"buffer_size": 379,
+				"buffer_size": 534,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "source/projects/2013-08-08-projecthumanity.md",
+			"file": "source/css/app.css.scss",
 			"settings":
 			{
-				"buffer_size": 1816,
+				"buffer_size": 301,
 				"line_ending": "Unix"
 			}
 		}
@@ -251,25 +273,32 @@
 	},
 	"file_history":
 	[
-		"/Users/user/Dropbox/Web/fe/source/projects/2013-08-08-projecthumanity.html.md",
+		"/Users/user/Dropbox/Web/fe/source/layouts/_nav.haml",
+		"/Users/user/Dropbox/Web/fe/source/css/styleguide/_palette.scss",
+		"/Users/user/Dropbox/Web/fe/source/js/all.js",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_nav.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_introtext.scss",
+		"/Users/user/Dropbox/Web/fe/source/layouts/_nav-mine.haml",
+		"/Users/user/Dropbox/Web/fe/Gemfile",
+		"/Users/user/Dropbox/Web/fe/config.rb",
+		"/Users/user/Dropbox/Web/fe/source/projects/2013-08-08-projecthumanity.md",
 		"/Users/user/Dropbox/Web/fe/source/projects/2013-08-07-audacitytoexist.md",
+		"/Users/user/Dropbox/Web/fe/source/layouts/_blogprevnext.haml",
+		"/Users/user/Dropbox/Web/fe/source/about.html.haml",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_branch.scss",
+		"/Users/user/Dropbox/Web/fe/source/layouts/projectsingle.haml",
+		"/Users/user/Dropbox/Web/fe/source/projects/2013-08-08-projecthumanity.html.md",
 		"/Users/user/Dropbox/Web/fe/source/layouts/_branch.haml",
 		"/Users/user/Dropbox/Web/fe/source/soul.html.haml",
 		"/Users/user/Dropbox/Web/fe/source/index.html.haml",
-		"/Users/user/Dropbox/Web/fe/source/layouts/_blogprevnext.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_blog-prevnext.scss",
 		"/Users/user/Dropbox/Web/fe/source/layouts/project.haml",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_introtext.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_logo.css.scss",
 		"/Users/user/Dropbox/Web/fe/source/logo.html.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_cards.scss",
-		"/Users/user/Dropbox/Web/fe/config.rb",
-		"/Users/user/Dropbox/Web/fe/Gemfile",
-		"/Users/user/Dropbox/Web/fe/source/layouts/projectsingle.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/_settings.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_wedo.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_projectsingle.scss",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_branch.scss",
 		"/Users/user/Dropbox/Web/fe/source/layouts/_cards.haml",
 		"/Users/user/Dropbox/Web/fe/source/layouts/_twitter.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/styleguide/typography/_typography.scss",
@@ -281,7 +310,6 @@
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_body.scss",
 		"/Users/user/Dropbox/Web/fe/source/js/foundation/foundation.orbit.js",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_section-splash.scss",
-		"/Users/user/Dropbox/Web/fe/source/layouts/_nav.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_section-background.scss",
 		"/Users/user/Dropbox/Web/fe/source/services.html.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_soul.scss",
@@ -289,13 +317,10 @@
 		"/Users/user/Dropbox/Web/fe/source/layouts/layout.haml",
 		"/Users/user/Dropbox/Web/fe/source/layouts/_scripts.haml",
 		"/Users/user/Dropbox/Web/fe/source/js/script.js.coffee",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_nav.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/app.css.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_mailchimp.scss",
-		"/Users/user/Dropbox/Web/fe/source/css/styleguide/_palette.scss",
 		"/Users/user/Dropbox/Web/fe/source/_soul.scss",
 		"/Users/user/Dropbox/Web/fe/.devprocess",
-		"/Users/user/Dropbox/Web/fe/source/about.html.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_mark.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_about.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_links.scss",
@@ -322,7 +347,6 @@
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_bastard.scss",
 		"/Users/user/Dropbox/Web/fe/source/projects/Project Humanity/2013-08-08-projecthumanity.html.md",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_doings.scss",
-		"/Users/user/Dropbox/Web/fe/source/js/all.js",
 		"/Users/user/Dropbox/Web/fe/source/projects/2013-08-08-bs.html.md",
 		"/Users/user/Dropbox/Web/fe/source/projects/2013-08-07-test3.html.markdown",
 		"/Users/user/Dropbox/Web/fe/source/projects/2013-08-08-lala.html.md",
@@ -376,9 +400,7 @@
 		"/Users/user/Dropbox/Web/sethjgre/source/manifesto.html.haml",
 		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/master/_grid.scss",
 		"/Users/user/Dropbox/Web/sethjgre/source/javascripts/all.js",
-		"/Users/user/Dropbox/Web/sethjgre/source/layouts/test.haml",
-		"/Users/user/Dropbox/Web/sethjgre/source/layouts/playground.haml",
-		"/Users/user/Dropbox/Web/sethjgre/source/home.html.haml"
+		"/Users/user/Dropbox/Web/sethjgre/source/layouts/test.haml"
 	],
 	"find":
 	{
@@ -396,6 +418,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"overflow",
+			"),-",
+			"h4",
+			"= link",
+			" = lin",
+			"h3 ",
+			"= link_to",
 			"form",
 			"service-",
 			"12",
@@ -538,19 +567,48 @@
 			[
 				{
 					"buffer": 0,
-					"file": "source/layouts/projectsingle.haml",
+					"file": "source/css/modulest/_nav.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 998,
+						"buffer_size": 2666,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								881,
-								881
+								1025,
+								1025
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 211.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "source/layouts/layout.haml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 420,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								419,
+								419
 							]
 						],
 						"settings":
@@ -566,20 +624,48 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "source/css/modulest/_branch.scss",
+					"buffer": 2,
+					"file": "source/css/modulest/_nav-mine.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 160,
+						"buffer_size": 67,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								121,
-								121
+								66,
+								66
+							]
+						],
+						"settings":
+						{
+							"auto_name": ".nav__fixed{",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "source/css/modulest/_body.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 145,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								65,
+								65
 							]
 						],
 						"settings":
@@ -591,91 +677,55 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 2,
-					"file": "source/about.html.haml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1562,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								737,
-								737
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "source/layouts/_blogprevnext.haml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 513,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								513,
-								513
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "source/projects/2013-08-07-audacitytoexist.md",
+					"file": "source/js/nav.js.coffee",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 379,
+						"buffer_size": 90,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								249,
-								249
+								56,
+								56
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"auto_name": "jQuery ($) ->",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "source/js/cards.js.coffee",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -686,29 +736,64 @@
 			]
 		},
 		{
+			"sheets":
+			[
+			]
+		},
+		{
 			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 5,
-					"file": "source/projects/2013-08-08-projecthumanity.md",
+					"buffer": 6,
+					"file": "source/layouts/_nav-mine.haml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1816,
+						"buffer_size": 534,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								366,
-								366
+								533,
+								533
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"history_list_is_closing": true,
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "source/css/app.css.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 301,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								300,
+								300
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -784,6 +869,50 @@
 		"selected_items":
 		[
 			[
+				"nav",
+				"source/layouts/_nav.haml"
+			],
+			[
+				"js",
+				"source/js/all.js"
+			],
+			[
+				"body",
+				"source/css/modulest/_body.scss"
+			],
+			[
+				"pal",
+				"source/css/styleguide/_palette.scss"
+			],
+			[
+				"app",
+				"source/css/app.css.scss"
+			],
+			[
+				"layout",
+				"source/layouts/layout.haml"
+			],
+			[
+				"intro",
+				"source/css/modulest/_introtext.scss"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"co",
+				"config.rb"
+			],
+			[
+				"ge",
+				"Gemfile"
+			],
+			[
+				"config",
+				"config.rb"
+			],
+			[
 				"project",
 				"source/projects/2013-08-08-projecthumanity.html.md"
 			],
@@ -816,10 +945,6 @@
 				"source/layouts/project.haml"
 			],
 			[
-				"intro",
-				"source/css/modulest/_introtext.scss"
-			],
-			[
 				"logo",
 				"source/css/modulest/_logo.css.scss"
 			],
@@ -838,10 +963,6 @@
 			[
 				"confi",
 				"config.rb"
-			],
-			[
-				"gem",
-				"Gemfile"
 			],
 			[
 				"cards",
@@ -896,24 +1017,12 @@
 				"source/css/styleguide/typography/_typography.scss"
 			],
 			[
-				"body",
-				"source/css/modulest/_body.scss"
-			],
-			[
 				"splash",
 				"source/css/modulest/_splash-box.scss"
 			],
 			[
 				"section",
 				"source/css/modulest/_section-splash.scss"
-			],
-			[
-				"nav",
-				"source/layouts/_nav.haml"
-			],
-			[
-				"config",
-				"config.rb"
 			],
 			[
 				"stand",
@@ -944,10 +1053,6 @@
 				"source/css/modulest/_section-splash.scss"
 			],
 			[
-				"layout",
-				"source/layouts/layout.haml"
-			],
-			[
 				"scr",
 				"source/layouts/_scripts.haml"
 			],
@@ -962,14 +1067,6 @@
 			[
 				"lay",
 				"source/layouts/layout.haml"
-			],
-			[
-				"app",
-				"source/css/app.css.scss"
-			],
-			[
-				"pal",
-				"source/css/styleguide/_palette.scss"
 			],
 			[
 				"sec",
@@ -1192,10 +1289,6 @@
 				"source/css/modulest/_0transitions.scss"
 			],
 			[
-				"js",
-				"source/js/all.js"
-			],
-			[
 				"todo",
 				".todo"
 			],
@@ -1286,14 +1379,6 @@
 			[
 				"bel",
 				"source/stylesheets/modules/belief.scss"
-			],
-			[
-				"belief",
-				"source/stylesheets/modules/belief.scss"
-			],
-			[
-				"says/",
-				"says/2013-02-13-the-universal-browser.html.markdown"
 			]
 		],
 		"width": 0.0
