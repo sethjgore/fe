@@ -1,0 +1,19 @@
+.blog-prevnext
+  .small-6.columns
+    - prev_article = current_article.previous_article
+    - if prev_article
+      %h3 Previous Project
+      %a{ :rel => "prev", :href => prev_article.url }
+        %p 
+          = prev_article.title
+  -#
+    -if !prev_article 
+      .blog-prevnext__logo#about-logo
+  
+  .small-6.columns
+    - next_article = current_article.next_article
+    - if next_article
+      %h3 Next Project
+      %a{ :rel => "next", :href => next_article.url }
+        %p 
+          = next_article.title

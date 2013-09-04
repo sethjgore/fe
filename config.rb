@@ -12,31 +12,9 @@ set :images_dir, 'img'
 
 activate :livereload
 activate :cache_buster
-
-#WHEN BUILDING SITE, DODO? 
-configure :build do
-  # For example, change the Compass output style for deployment
-  activate :minify_css
-
-  # Minify Javascript on build
-  activate :minify_javascript
-
-  # Enable cache buster
-  activate :cache_buster
-
-  # Use relative URLs
-  activate :relative_assets
-
-  activate :directory_indexes
-
-  # Compress PNGs after build
-  # First: gem install middleman-smusher
-  # require "middleman-smusher"
-  # activate :smusher
-
-  # Or use a different image path
-  # set :http_path, "/Content/images/"
-end
+activate :image_optim
+activate :gzip
+activate :minify_html
 
 #WHEN LAND PROJECT/* DODO? && BLOG PREFERENCES
 activate :blog do |blog|
@@ -45,6 +23,7 @@ activate :blog do |blog|
   blog.permalink = ":title"
   blog.layout = "projectsingle"
   blog.default_extension = ".md"
+  blog.paginate = true
 
 end
 
@@ -64,3 +43,22 @@ sass_options = {:debug_info => true}
 sass_options = {:sourcemap => true}
 
 set :markdown_engine, :redcarpet
+
+
+#WHEN BUILDING SITE, DODO? 
+configure :build do
+  # For example, change the Compass output style for deployment
+  activate :minify_css
+
+  # Minify Javascript on build
+  activate :minify_javascript
+
+  # Enable cache buster
+  activate :cache_buster
+
+  # Use relative URLs
+  activate :relative_assets
+
+  activate :directory_indexes
+  activate :gzip
+end

@@ -2,5 +2,7 @@
   @media #{$small}{
     width: 550px;
     margin: 0 auto;
+    @extend .section-background__textured;
+    background-position: 0 50%;
   } 
 }

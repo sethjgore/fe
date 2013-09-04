@@ -22,11 +22,18 @@
 %section
   .row
     .small-12.columns
+      %blockquote Join the Discussion
+      
+%section
+  .row
+    .small-12.columns
       .block-branch
       = current_page.data.branch
 
 .section.section-background__textured
   .row
+    = partial "layouts/blogprevnext"
+
     .small-12.columns
-      %h2.is-text__centered
-        = link_to 'Back to Projects', '/projects.html'
+      %h3.is-text__centered
+        = link_to 'Back to Projects Overview', '/projects.html'
