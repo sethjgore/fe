@@ -16,14 +16,30 @@
 .introtext__first-line{
   position: absolute;
   color: $white;
-  font-size: 3.1;
+  font-size: 3.1rem;
   left: 1rem;
   right: 1rem;
-  bottom: 15vh;
+  bottom: 16vh;
 
   @media #{$small}{
-    font-size: 4.5rem;
-    bottom: 8vh;
+    bottom: 0vh;
   }
 }
 
+.introtext__title{
+  color: $white;
+  font-size: 3.1rem;
+  
+  @media #{$small}{
+      font-size: 4.5rem;
+  }
+}
+
+.introtext__transparent{
+  color: transparentize($white,.5);
+}
+
+.introtext__scroll-alert{
+  @extend .is-text__centered;
+  @include transition(.5)
+}

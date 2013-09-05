@@ -14,7 +14,6 @@
   width:  2rem;
   height: 2rem;
   background: $gray-dark;
-  overflow: hidden;
   margin: 0 0 .4rem .4rem;
   border-radius: .2rem;
   box-shadow: 0 .1rem .1rem rgba(0,0,0,.3);
@@ -31,8 +30,7 @@
 
   &:before{
     content: "";
-    background: pink;
-    position: relative;
+    position: absolute;
     left: -1rem;
     height: 2rem;
     width: 2rem;
@@ -51,7 +49,7 @@
   position: relative;
   z-index: 5;
   width: 8rem;
-  overflow: scroll;
+ ; overflow: scroll;
   -webkit-overflow-scrolling: touch;
 }
 
