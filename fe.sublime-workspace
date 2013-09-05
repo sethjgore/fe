@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"middleman",
+				"middleman-smusher"
+			],
+			[
+				"image",
+				"image_optim"
+			],
+			[
 				"j",
 				"j-nav__menu"
 			],
@@ -56,68 +64,34 @@
 	"buffers":
 	[
 		{
-			"file": "source/css/modulest/_nav.scss",
+			"file": "Gemfile",
 			"settings":
 			{
-				"buffer_size": 2666,
+				"buffer_size": 389,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "source/layouts/layout.haml",
+			"file": ".devprocess",
 			"settings":
 			{
-				"buffer_size": 420,
+				"buffer_size": 547,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "source/css/modulest/_nav-mine.scss",
+			"file": "config.rb",
 			"settings":
 			{
-				"buffer_size": 67,
-				"line_ending": "Unix",
-				"name": ".nav__fixed{"
-			}
-		},
-		{
-			"file": "source/css/modulest/_body.scss",
-			"settings":
-			{
-				"buffer_size": 145,
+				"buffer_size": 1537,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "source/js/nav.js.coffee",
+			"file": "source/css/_settings.scss",
 			"settings":
 			{
-				"buffer_size": 90,
-				"line_ending": "Unix",
-				"name": "jQuery ($) ->"
-			}
-		},
-		{
-			"file": "source/js/cards.js.coffee",
-			"settings":
-			{
-				"buffer_size": 206,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "source/layouts/_nav-mine.haml",
-			"settings":
-			{
-				"buffer_size": 534,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "source/css/app.css.scss",
-			"settings":
-			{
-				"buffer_size": 301,
+				"buffer_size": 31410,
 				"line_ending": "Unix"
 			}
 		}
@@ -273,12 +247,22 @@
 	},
 	"file_history":
 	[
+		"/Users/user/Dropbox/Web/fe/Gemfile.lock",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_body.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/styleguide/typography/_is.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/styleguide/typography/_typography.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/styleguide/typography/_h.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/styleguide/_fonts.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/app.css.scss",
+		"/Users/user/Dropbox/Web/fe/source/layouts/_nav-mine.haml",
+		"/Users/user/Dropbox/Web/fe/source/js/nav.js.coffee",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_nav-mine.scss",
+		"/Users/user/Dropbox/Web/fe/source/layouts/layout.haml",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_nav.scss",
 		"/Users/user/Dropbox/Web/fe/source/layouts/_nav.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/styleguide/_palette.scss",
 		"/Users/user/Dropbox/Web/fe/source/js/all.js",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_nav.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_introtext.scss",
-		"/Users/user/Dropbox/Web/fe/source/layouts/_nav-mine.haml",
 		"/Users/user/Dropbox/Web/fe/Gemfile",
 		"/Users/user/Dropbox/Web/fe/config.rb",
 		"/Users/user/Dropbox/Web/fe/source/projects/2013-08-08-projecthumanity.md",
@@ -301,23 +285,17 @@
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_projectsingle.scss",
 		"/Users/user/Dropbox/Web/fe/source/layouts/_cards.haml",
 		"/Users/user/Dropbox/Web/fe/source/layouts/_twitter.haml",
-		"/Users/user/Dropbox/Web/fe/source/css/styleguide/typography/_typography.scss",
 		"/Users/user/Dropbox/Web/fe/source/layouts/_mailchimp.haml",
-		"/Users/user/Dropbox/Web/fe/source/css/styleguide/typography/_h.scss",
 		"/Users/user/Dropbox/Web/fe/source/projects.html.haml",
-		"/Users/user/Dropbox/Web/fe/source/css/styleguide/typography/_is.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_splash-box.scss",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_body.scss",
 		"/Users/user/Dropbox/Web/fe/source/js/foundation/foundation.orbit.js",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_section-splash.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_section-background.scss",
 		"/Users/user/Dropbox/Web/fe/source/services.html.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_soul.scss",
 		"/Users/user/Dropbox/Web/fe/source/kitchensink.html.haml",
-		"/Users/user/Dropbox/Web/fe/source/layouts/layout.haml",
 		"/Users/user/Dropbox/Web/fe/source/layouts/_scripts.haml",
 		"/Users/user/Dropbox/Web/fe/source/js/script.js.coffee",
-		"/Users/user/Dropbox/Web/fe/source/css/app.css.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_mailchimp.scss",
 		"/Users/user/Dropbox/Web/fe/source/_soul.scss",
 		"/Users/user/Dropbox/Web/fe/.devprocess",
@@ -325,7 +303,6 @@
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_about.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_links.scss",
 		"/Users/user/Dropbox/Web/fe/source/layouts/_moreinfo.haml",
-		"/Users/user/Dropbox/Web/fe/source/css/styleguide/_fonts.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_row.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_block-quote.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_block-border.scss",
@@ -367,7 +344,6 @@
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_isready.scss",
 		"/Users/user/Dropbox/Web/fe/.todo",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_footer.scss",
-		"/Users/user/Dropbox/Web/fe/Gemfile.lock",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_now.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/styleguide/_type.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_motto.scss",
@@ -398,9 +374,7 @@
 		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/modules/_intro.scss",
 		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/master/motion.scss",
 		"/Users/user/Dropbox/Web/sethjgre/source/manifesto.html.haml",
-		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/master/_grid.scss",
-		"/Users/user/Dropbox/Web/sethjgre/source/javascripts/all.js",
-		"/Users/user/Dropbox/Web/sethjgre/source/layouts/test.haml"
+		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/master/_grid.scss"
 	],
 	"find":
 	{
@@ -418,6 +392,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			";;",
+			"],",
 			"overflow",
 			"),-",
 			"h4",
@@ -543,8 +519,7 @@
 			"fo",
 			"ship",
 			"is",
-			"selector",
-			"elem"
+			"selector"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -567,160 +542,46 @@
 			[
 				{
 					"buffer": 0,
-					"file": "source/css/modulest/_nav.scss",
+					"file": "Gemfile",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2666,
+						"buffer_size": 389,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1025,
-								1025
+								389,
+								389
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 211.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "source/layouts/layout.haml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 420,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								419,
-								419
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "source/css/modulest/_nav-mine.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 67,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								66,
-								66
-							]
-						],
-						"settings":
-						{
-							"auto_name": ".nav__fixed{",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "source/css/modulest/_body.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 145,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								65,
-								65
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "source/js/nav.js.coffee",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 90,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								56,
-								56
-							]
-						],
-						"settings":
-						{
-							"auto_name": "jQuery ($) ->",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "source/js/cards.js.coffee",
+					"file": ".devprocess",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 206,
+						"buffer_size": 547,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13,
-								0
+								397,
+								397
 							]
 						],
 						"settings":
@@ -736,8 +597,38 @@
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 2,
+					"file": "config.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1537,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1475,
+								1475
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 503.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
@@ -745,50 +636,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 6,
-					"file": "source/layouts/_nav-mine.haml",
+					"buffer": 3,
+					"file": "source/css/_settings.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 534,
+						"buffer_size": 31410,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								533,
-								533
-							]
-						],
-						"settings":
-						{
-							"history_list_is_closing": true,
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "source/css/app.css.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 301,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								300,
-								300
+								832,
+								832
 							]
 						],
 						"settings":
@@ -796,7 +657,7 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 65.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -869,6 +730,38 @@
 		"selected_items":
 		[
 			[
+				"is",
+				"source/css/styleguide/typography/_is.scss"
+			],
+			[
+				"th",
+				"source/css/styleguide/typography/_h.scss"
+			],
+			[
+				"typo",
+				"source/css/styleguide/typography/_typography.scss"
+			],
+			[
+				"fonts",
+				"source/css/styleguide/_fonts.scss"
+			],
+			[
+				"modulest/",
+				"source/css/modulest/_body.scss"
+			],
+			[
+				"sett",
+				"source/css/_settings.scss"
+			],
+			[
+				"gem",
+				"Gemfile.lock"
+			],
+			[
+				"config",
+				"config.rb"
+			],
+			[
 				"nav",
 				"source/layouts/_nav.haml"
 			],
@@ -897,20 +790,12 @@
 				"source/css/modulest/_introtext.scss"
 			],
 			[
-				"gem",
-				"Gemfile"
-			],
-			[
 				"co",
 				"config.rb"
 			],
 			[
 				"ge",
 				"Gemfile"
-			],
-			[
-				"config",
-				"config.rb"
 			],
 			[
 				"project",
@@ -1009,14 +894,6 @@
 				"source/css/styleguide/typography/_h.scss"
 			],
 			[
-				"is",
-				"source/css/styleguide/typography/_is.scss"
-			],
-			[
-				"typo",
-				"source/css/styleguide/typography/_typography.scss"
-			],
-			[
 				"splash",
 				"source/css/modulest/_splash-box.scss"
 			],
@@ -1035,10 +912,6 @@
 			[
 				"sectio",
 				"source/css/modulest/_section-splash.scss"
-			],
-			[
-				"sett",
-				"source/css/_settings.scss"
 			],
 			[
 				"serv",
@@ -1106,10 +979,6 @@
 			],
 			[
 				"font",
-				"source/css/styleguide/_fonts.scss"
-			],
-			[
-				"fonts",
 				"source/css/styleguide/_fonts.scss"
 			],
 			[
@@ -1371,14 +1240,6 @@
 			[
 				"ind",
 				"sethjgre/source/index.html.haml"
-			],
-			[
-				"back",
-				"source/stylesheets/master/backgrounds.scss"
-			],
-			[
-				"bel",
-				"source/stylesheets/modules/belief.scss"
 			]
 		],
 		"width": 0.0
@@ -1409,7 +1270,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 224.0,
 	"status_bar_visible": true,
 	"template_settings":

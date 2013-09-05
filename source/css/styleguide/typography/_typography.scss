@@ -18,7 +18,7 @@ html,body{
 p{
   font-size: 1rem;
   line-height: 1.42em;
-  font-family: Cardo;
+  font-family: Cardo, Georgia, serif;
 
   @media #{$medium}{
     font-size: .8rem;
@@ -27,7 +27,7 @@ p{
 
 blockquote{
   font-size: 1.2rem;
-  font-family: Cardo;
+  font-family: Cardo, Georgia, serif;
   line-height: 1.42em;
   margin: 1rem 0;
   text-align: left;

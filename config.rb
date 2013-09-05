@@ -1,4 +1,6 @@
 
+require "middleman-smusher"
+
 # ROUTER IMPLEMENTATION VIA MIDDLEMAN RACKWARE
 page "/",               :layout => :layout
 page "/projects.html",  :layout => :project
@@ -6,7 +8,7 @@ page "/projects.html",  :layout => :project
 #SET DIRECTORIES OF IMG / JS / CSS
 set :css_dir, 'css'
 set :js_dir, 'js'
-set :images_dir, 'img'
+#set :images_dir, 'img'
 
 #SET MARKDOWN ENGINE CHOICE
 set :markdown_engine, :redcarpet
@@ -17,7 +19,6 @@ activate :livereload
 activate :directory_indexes
 activate :gzip
 activate :minify_html
-activate :image_optim
 
 #WHEN LAND PROJECT/* DODO? && BLOG PREFERENCES
 activate :blog do |blog|
@@ -64,5 +65,7 @@ configure :build do
   activate :gzip
   activate :minify_html
   activate :image_optim
+  activate :middleman-smusher
+  activate :middleman_smusher
 
 end
