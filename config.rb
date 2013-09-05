@@ -49,6 +49,8 @@ sass_options = {:sourcemap => true}
 #WHEN BUILDING SITE, DODO? 
 configure :build do
   
+  ignore 'images/assets/*'
+
   # For example, change the Compass output style for deployment
   activate :minify_css
 
@@ -64,8 +66,7 @@ configure :build do
   activate :directory_indexes
   activate :gzip
   activate :minify_html
-  activate :image_optim
-  activate :middleman-smusher
-  activate :middleman_smusher
+  activate :cache_buster
+  activate :asset_hash
 
 end

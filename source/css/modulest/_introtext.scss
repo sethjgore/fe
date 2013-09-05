@@ -27,26 +27,3 @@
   }
 }
 
-.introtext__transparent{
-  color: rgba(255,255,255,.5);
-}
-
-.introtext__second-line{
-  border-bottom: none;
-  color: rgba(255,255,255,.5); 
-  position: relative;
-  top: -1.1rem;
-
-  @media #{$small}{
-    top: -1.8rem;
-  }
-}
-
-.intro-text-message{
-	//@include transition-delay(2s);
-	color: $main;
-}
-
-.intro-video{
-	//@include transition-delay(3.5s);
-}
