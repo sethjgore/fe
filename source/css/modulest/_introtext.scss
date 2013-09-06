@@ -32,3 +32,16 @@
   @extend .is-text__centered;
   @include transition(.5)
 }
+
+.introtext__playbutton{
+  @extend .projectsingle__playbutton;
+  margin: 0 auto;
+}
+
+.introtext__playtext{
+  color: $white;
+
+  &:hover{
+    color: $orange;
+  }
+}
