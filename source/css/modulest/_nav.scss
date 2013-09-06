@@ -5,7 +5,7 @@
 
 .nav__fixed{
   position: fixed;
-  bottom: 0;
+  top: 0;
   z-index: 999;
 
 }
@@ -37,8 +37,6 @@
     position: absolute;
     top: 1.9rem; 
     right: -3rem;
-    
-    z-index: 10;
 
   @media #{$small}{
     margin: 0 0 .6rem .6rem;
@@ -63,9 +61,8 @@
   background: $gray-dark;
   height: 100vh;
   position: relative;
-  z-index: 5;
   width: 8rem;
- ; overflow: scroll;
+  overflow: scroll;
   -webkit-overflow-scrolling: touch;
 }
 

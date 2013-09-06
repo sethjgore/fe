@@ -4,34 +4,23 @@
   
 }
 
-.introtext__splash{
-    position: relative;
-    bottom: -60vh;
-}
-
 .introtext__box{
   height: 100vh;
+  padding-top: 5vh;
 }
 
 .introtext__first-line{
   position: absolute;
   color: $white;
-  font-size: 3.1rem;
-  left: 1rem;
-  right: 1rem;
-  bottom: 16vh;
 
-  @media #{$small}{
-    bottom: 0vh;
-  }
 }
 
 .introtext__title{
   color: $white;
-  font-size: 3.1rem;
+  font-size: 2rem;
   
   @media #{$small}{
-      font-size: 4.5rem;
+      font-size: 15vw;
   }
 }
 

@@ -80,18 +80,18 @@
 	"buffers":
 	[
 		{
-			"file": "source/layouts/_nav-mine.haml",
+			"file": "source/index.html.haml",
 			"settings":
 			{
-				"buffer_size": 723,
+				"buffer_size": 2767,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "source/css/modulest/_nav.scss",
+			"file": "source/css/modulest/_introtext.scss",
 			"settings":
 			{
-				"buffer_size": 2842,
+				"buffer_size": 430,
 				"line_ending": "Unix"
 			}
 		}
@@ -247,34 +247,37 @@
 	},
 	"file_history":
 	[
-		"/Users/user/Dropbox/Web/fe/source/layouts/_nav-mine.haml",
-		"/Users/user/Dropbox/Web/fe/source/layouts/_nav.haml",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_row.scss",
+		"/Users/user/Dropbox/Web/fe/source/index.html.haml",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_nav.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_section-splash.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_blank.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_splash-box.scss",
+		"/Users/user/Dropbox/Web/fe/source/blank.html.haml",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_introtext.scss",
+		"/Users/user/Dropbox/Web/fe/source/layouts/blank.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_about.scss",
+		"/Users/user/Dropbox/Web/fe/source/about.html.haml",
+		"/Users/user/Dropbox/Web/fe/source/layouts/_nav-mine.haml",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_nav-mine.scss",
+		"/Users/user/Dropbox/Web/fe/source/layouts/project.haml",
+		"/Users/user/Dropbox/Web/fe/source/layouts/_nav.haml",
 		"/Users/user/Dropbox/Web/fe/source/layouts/layout.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_eyeexam.scss",
 		"/Users/user/Dropbox/Web/fe/source/eyeexam.html.haml",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_nav.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_dedication.scss",
 		"/Users/user/Dropbox/Web/fe/source/js/all.js",
 		"/Users/user/Dropbox/Web/fe/source/js/nav.js.coffee",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_soul.scss",
 		"/Users/user/Dropbox/Web/fe/source/soul.html.haml",
 		"/Users/user/Dropbox/Web/fe/source/layouts/kitchensink.haml",
-		"/Users/user/Dropbox/Web/fe/source/index.html.haml",
 		"/Users/user/Dropbox/Web/fe/source/kitchensink.html.haml",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_row.scss",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_introtext.scss",
 		"/Users/user/Dropbox/Web/fe/source/dedication.html.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_section-background.scss",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_splash-box.scss",
-		"/Users/user/Dropbox/Web/fe/source/about.html.haml",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_nav-mine.scss",
 		"/Users/user/Dropbox/Web/fe/source/js/foundation/foundation.reveal.js",
 		"/Users/user/Dropbox/Web/fe/config.rb",
 		"/Users/user/Dropbox/Web/fe/source/projects/2013-08-08-projecthumanity.md",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_cards.scss",
-		"/Users/user/Dropbox/Web/fe/source/layouts/project.haml",
 		"/Users/user/Dropbox/Web/fe/source/layouts/_cards.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_projectsingle.scss",
 		"/Users/user/Dropbox/Web/fe/source/layouts/projectsingle.haml",
@@ -371,14 +374,11 @@
 		"/Users/user/Dropbox/Web/sethjgre/Gemfile",
 		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/modules/_nav.scss",
 		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/modules/_view-animation.scss",
-		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/modules/_nav",
-		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/master/_body.scss",
-		"/Users/user/Dropbox/Web/sethjgre/source/javascripts/alt.js",
-		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/modules/_belief.scss"
+		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/modules/_nav"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
@@ -392,6 +392,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" .small-10",
+			", '/",
+			"', '",
 			"img",
 			"12",
 			"e-4.",
@@ -516,10 +519,7 @@
 			"view",
 			"angular",
 			"grayscale(0.5)",
-			".is.centered",
-			"NAME-YOUR-ANIMATION ",
-			"body",
-			"lib"
+			".is.centered"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -542,19 +542,55 @@
 			[
 				{
 					"buffer": 0,
-					"file": "source/layouts/_nav-mine.haml",
+					"file": "source/index.html.haml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 723,
+						"buffer_size": 2767,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								723,
-								723
+								878,
+								878
+							],
+							[
+								966,
+								966
+							],
+							[
+								1173,
+								1173
+							],
+							[
+								1454,
+								1454
+							],
+							[
+								1544,
+								1544
+							],
+							[
+								1751,
+								1751
+							],
+							[
+								1994,
+								1994
+							],
+							[
+								2085,
+								2085
+							],
+							[
+								2292,
+								2292
+							],
+							[
+								2531,
+								2531
 							]
 						],
 						"settings":
@@ -582,19 +618,19 @@
 			[
 				{
 					"buffer": 1,
-					"file": "source/css/modulest/_nav.scss",
+					"file": "source/css/modulest/_introtext.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2842,
+						"buffer_size": 430,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								367,
-								367
+								101,
+								101
 							]
 						],
 						"settings":
@@ -604,7 +640,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2.0,
+						"translation.y": 70.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -677,8 +713,48 @@
 		"selected_items":
 		[
 			[
+				"ind",
+				"source/index.html.haml"
+			],
+			[
+				"row",
+				"source/css/modulest/_row.scss"
+			],
+			[
+				"intro",
+				"source/css/modulest/_introtext.scss"
+			],
+			[
+				"section",
+				"source/css/modulest/_section-splash.scss"
+			],
+			[
+				"i",
+				"source/index.html.haml"
+			],
+			[
 				"nav",
-				"source/layouts/_nav-mine.haml"
+				"source/css/modulest/_nav.scss"
+			],
+			[
+				"splas",
+				"source/css/modulest/_splash-box.scss"
+			],
+			[
+				"blank",
+				"source/css/modulest/_blank.scss"
+			],
+			[
+				"about",
+				"source/about.html.haml"
+			],
+			[
+				"mav",
+				"source/css/modulest/_nav-mine.scss"
+			],
+			[
+				"projec",
+				"source/layouts/project.haml"
 			],
 			[
 				"js",
@@ -697,10 +773,6 @@
 				"source/kitchensink.html.haml"
 			],
 			[
-				"row",
-				"source/css/modulest/_row.scss"
-			],
-			[
 				"e",
 				"source/eyeexam.html.haml"
 			],
@@ -717,14 +789,6 @@
 				"source/css/modulest/_soul.scss"
 			],
 			[
-				"intro",
-				"source/css/modulest/_introtext.scss"
-			],
-			[
-				"about",
-				"source/css/modulest/_about.scss"
-			],
-			[
 				"ded",
 				"source/css/modulest/_dedication.scss"
 			],
@@ -739,10 +803,6 @@
 			[
 				"de",
 				"source/dedication.html.haml"
-			],
-			[
-				"section",
-				"source/css/modulest/_section-background.scss"
 			],
 			[
 				"secti",
@@ -771,10 +831,6 @@
 			[
 				"cards",
 				"source/layouts/_cards.haml"
-			],
-			[
-				"projec",
-				"source/layouts/project.haml"
 			],
 			[
 				"projet",
@@ -1167,26 +1223,6 @@
 			[
 				"manifes",
 				"sethjgre/source/manifesto.html.haml"
-			],
-			[
-				"be",
-				"sethjgre/source/stylesheets/modules/_belief.scss"
-			],
-			[
-				"motion",
-				"sethjgre/source/stylesheets/master/motion.scss"
-			],
-			[
-				"home",
-				"sethjgre/source/home.html.haml"
-			],
-			[
-				"alt",
-				"sethjgre/source/javascripts/alt.js"
-			],
-			[
-				"animatio",
-				"sethjgre/source/stylesheets/modules/_view-animation.scss"
 			]
 		],
 		"width": 0.0

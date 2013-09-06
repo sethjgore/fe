@@ -1,17 +1,20 @@
+$splash-box-height: 25rem;
+
 .section-splash__box{
+  width: 100vw;
+  height: $splash-box-height;
   position: fixed;
+  z-index: -1;
   top: 0;
   bottom: 0;
-  left: 0;
   right: 0;
-  height: 100vh;
-  z-index: -1;
+  left: 0;
 
 }
 
 .section-splash__box + div,
 .section-splash__box + section {
-  margin-top: 100vh;  
+  margin-top: $splash-box-height;  
 
   &.section-splash__margin-bottom{
     margin-bottom: 3vh; // for nice marginal space

@@ -1,0 +1,24 @@
+$splash-box-height: 25rem;
+
+.block-blank{
+  background: pink;
+ //background: image-url('photo-optim/thinktank-7.jpg') center center, $gray;
+ // background-position: center;
+ // background-size: cover;
+  width: 100vw;
+  height: $splash-box-height;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.block-above-blank{
+  margin-top: $splash-box-height;
+}
+
+.blank-nav-box{
+
+}
