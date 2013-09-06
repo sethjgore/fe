@@ -10,19 +10,35 @@
 
 }
 
-.nav__box{
-  width:  2rem;
-  height: 2rem;
-  background: $gray-dark;
-  margin: 0 0 .4rem .4rem;
-  border-radius: .2rem;
-  box-shadow: 0 .1rem .1rem rgba(0,0,0,.3);
-
-  position: absolute;
-  top: 1.9rem; 
-  right: -3rem;
+/*.nav__bar{
+  height: 3rem;
+  position: relative;
   
-  z-index: 10;
+  @media #{$small}{
+    display: none;
+  }
+
+  .nav__logo{
+    position: absolute;
+    right: 1rem;
+    top: 0rem;
+  }
+}*/
+.nav__box{
+
+    display: block;
+    width:  2rem;
+    height: 2rem;
+    background: $gray-dark;
+    margin: 0 0 .4rem .4rem;
+    border-radius: .2rem;
+    box-shadow: 0 .1rem .1rem rgba(0,0,0,.3);
+
+    position: absolute;
+    top: 1.9rem; 
+    right: -3rem;
+    
+    z-index: 10;
 
   @media #{$small}{
     margin: 0 0 .6rem .6rem;
@@ -54,9 +70,13 @@
 }
 
 .nav__menu-title{
-  color: $white;
+
+  a{
+    color: $white;
+    border: none;
+  }
+  
   padding-left: 1rem;
-  padding-top: 1rem;
 }
 .nav__menu-list{
   padding: 0;
@@ -76,6 +96,7 @@
 .nav__menu-links{
   padding-left: 1rem;
   width: 8rem;
+
   display: block;
   border-bottom: none;
 }
@@ -108,7 +129,10 @@
   
 }
 
-
+.j-section-nav-close{
+  padding-right: 1rem;
+  text-align: right;
+}
 /*
 #nav-logo{
   @extend .logo-as-background;

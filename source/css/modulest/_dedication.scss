@@ -1,0 +1,14 @@
+.dedication{
+    background: $gray-dark !important;
+}
+
+.dedication__background{
+  height: 15rem;
+  background: image-url('facundomontenegro.jpg');
+  background-size: cover;
+}
+
+.dedication__text{
+  color: $white;
+  height: 15rem;
+}

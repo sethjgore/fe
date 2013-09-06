@@ -60,13 +60,19 @@ configure :build do
   # Enable cache buster
   #activate :cache_buster
 
-  # Use relative URLs
+  # TURNS ON RELATIVE ASSETS. DO NOT CHANGE
   activate :relative_assets
+
+  # TURNS ON VANITY URLS. DO NOT CHANGE. 
+  activate :directory_indexes
+
+  # TURNS ON RELATIVE LINKING. DO NOT CHANGE.
+  set :relative_links, true
 
   activate :directory_indexes
   activate :gzip
   activate :minify_html
-  activate :cache_buster
-  activate :asset_hash
+  #activate :cache_buster
+  #activate :asset_hash
 
 end

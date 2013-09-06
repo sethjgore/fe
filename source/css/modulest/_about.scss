@@ -1,5 +1,10 @@
+.about__board-img{
+  margin: 0 auto;
+  width: 100%;
+}
+
 #about-logo{
-  @extend .logo-as-background;
-  height: 10rem;
-  margin-top: 2rem;
+  background: image-url('logo_tilted.svg') no-repeat center center;
+  background-size: contain;
+  height: 4em;
 }

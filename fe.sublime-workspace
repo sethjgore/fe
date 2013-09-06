@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"dedication",
+				"dedication__background"
+			],
+			[
+				"intro__",
+				"introtext__scroll"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"cach",
+				"cache_buster"
+			],
+			[
 				"middleman",
 				"middleman-smusher"
 			],
@@ -64,34 +80,18 @@
 	"buffers":
 	[
 		{
-			"file": "Gemfile",
+			"file": "source/layouts/_nav-mine.haml",
 			"settings":
 			{
-				"buffer_size": 389,
+				"buffer_size": 723,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": ".devprocess",
+			"file": "source/css/modulest/_nav.scss",
 			"settings":
 			{
-				"buffer_size": 547,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config.rb",
-			"settings":
-			{
-				"buffer_size": 1537,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "source/css/_settings.scss",
-			"settings":
-			{
-				"buffer_size": 31410,
+				"buffer_size": 2842,
 				"line_ending": "Unix"
 			}
 		}
@@ -247,68 +247,74 @@
 	},
 	"file_history":
 	[
-		"/Users/user/Dropbox/Web/fe/Gemfile.lock",
+		"/Users/user/Dropbox/Web/fe/source/layouts/_nav-mine.haml",
+		"/Users/user/Dropbox/Web/fe/source/layouts/_nav.haml",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_section-splash.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_about.scss",
+		"/Users/user/Dropbox/Web/fe/source/layouts/layout.haml",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_eyeexam.scss",
+		"/Users/user/Dropbox/Web/fe/source/eyeexam.html.haml",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_nav.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_dedication.scss",
+		"/Users/user/Dropbox/Web/fe/source/js/all.js",
+		"/Users/user/Dropbox/Web/fe/source/js/nav.js.coffee",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_soul.scss",
+		"/Users/user/Dropbox/Web/fe/source/soul.html.haml",
+		"/Users/user/Dropbox/Web/fe/source/layouts/kitchensink.haml",
+		"/Users/user/Dropbox/Web/fe/source/index.html.haml",
+		"/Users/user/Dropbox/Web/fe/source/kitchensink.html.haml",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_row.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_introtext.scss",
+		"/Users/user/Dropbox/Web/fe/source/dedication.html.haml",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_section-background.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_splash-box.scss",
+		"/Users/user/Dropbox/Web/fe/source/about.html.haml",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_nav-mine.scss",
+		"/Users/user/Dropbox/Web/fe/source/js/foundation/foundation.reveal.js",
+		"/Users/user/Dropbox/Web/fe/config.rb",
+		"/Users/user/Dropbox/Web/fe/source/projects/2013-08-08-projecthumanity.md",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_cards.scss",
+		"/Users/user/Dropbox/Web/fe/source/layouts/project.haml",
+		"/Users/user/Dropbox/Web/fe/source/layouts/_cards.haml",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_projectsingle.scss",
+		"/Users/user/Dropbox/Web/fe/source/layouts/projectsingle.haml",
+		"/Users/user/Dropbox/Web/fe/Rakefile",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_body.scss",
+		"/Users/user/Dropbox/Web/fe/source/css/modulest/_wedo.scss",
+		"/Users/user/Dropbox/Web/fe/Gemfile",
+		"/Users/user/Dropbox/Web/fe/source/css/_settings.scss",
+		"/Users/user/Dropbox/Web/fe/Gemfile.lock",
 		"/Users/user/Dropbox/Web/fe/source/css/styleguide/typography/_is.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/styleguide/typography/_typography.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/styleguide/typography/_h.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/styleguide/_fonts.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/app.css.scss",
-		"/Users/user/Dropbox/Web/fe/source/layouts/_nav-mine.haml",
-		"/Users/user/Dropbox/Web/fe/source/js/nav.js.coffee",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_nav-mine.scss",
-		"/Users/user/Dropbox/Web/fe/source/layouts/layout.haml",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_nav.scss",
-		"/Users/user/Dropbox/Web/fe/source/layouts/_nav.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/styleguide/_palette.scss",
-		"/Users/user/Dropbox/Web/fe/source/js/all.js",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_introtext.scss",
-		"/Users/user/Dropbox/Web/fe/Gemfile",
-		"/Users/user/Dropbox/Web/fe/config.rb",
-		"/Users/user/Dropbox/Web/fe/source/projects/2013-08-08-projecthumanity.md",
 		"/Users/user/Dropbox/Web/fe/source/projects/2013-08-07-audacitytoexist.md",
 		"/Users/user/Dropbox/Web/fe/source/layouts/_blogprevnext.haml",
-		"/Users/user/Dropbox/Web/fe/source/about.html.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_branch.scss",
-		"/Users/user/Dropbox/Web/fe/source/layouts/projectsingle.haml",
 		"/Users/user/Dropbox/Web/fe/source/projects/2013-08-08-projecthumanity.html.md",
 		"/Users/user/Dropbox/Web/fe/source/layouts/_branch.haml",
-		"/Users/user/Dropbox/Web/fe/source/soul.html.haml",
-		"/Users/user/Dropbox/Web/fe/source/index.html.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_blog-prevnext.scss",
-		"/Users/user/Dropbox/Web/fe/source/layouts/project.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_logo.css.scss",
 		"/Users/user/Dropbox/Web/fe/source/logo.html.haml",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_cards.scss",
-		"/Users/user/Dropbox/Web/fe/source/css/_settings.scss",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_wedo.scss",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_projectsingle.scss",
-		"/Users/user/Dropbox/Web/fe/source/layouts/_cards.haml",
 		"/Users/user/Dropbox/Web/fe/source/layouts/_twitter.haml",
 		"/Users/user/Dropbox/Web/fe/source/layouts/_mailchimp.haml",
 		"/Users/user/Dropbox/Web/fe/source/projects.html.haml",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_splash-box.scss",
 		"/Users/user/Dropbox/Web/fe/source/js/foundation/foundation.orbit.js",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_section-splash.scss",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_section-background.scss",
 		"/Users/user/Dropbox/Web/fe/source/services.html.haml",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_soul.scss",
-		"/Users/user/Dropbox/Web/fe/source/kitchensink.html.haml",
 		"/Users/user/Dropbox/Web/fe/source/layouts/_scripts.haml",
 		"/Users/user/Dropbox/Web/fe/source/js/script.js.coffee",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_mailchimp.scss",
 		"/Users/user/Dropbox/Web/fe/source/_soul.scss",
 		"/Users/user/Dropbox/Web/fe/.devprocess",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_mark.scss",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_about.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_links.scss",
 		"/Users/user/Dropbox/Web/fe/source/layouts/_moreinfo.haml",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_row.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_block-quote.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_block-border.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/_foundation-modules.scss",
 		"/Users/user/Dropbox/Web/fe/source/layouts/project-stand-alone.haml",
-		"/Users/user/Dropbox/Web/fe/source/layouts/kitchensink.haml",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_button.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/styleguide/typography/_p.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_kitchensink.scss",
@@ -316,7 +322,6 @@
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_typography.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/_typography.scss",
 		"/Users/user/Dropbox/Web/fe/source/js/foundation/foundation.js",
-		"/Users/user/Dropbox/Web/fe/source/css/modulest/_eyeexam.scss",
 		"/Users/user/Dropbox/Web/fe/source/layouts/_footer.haml",
 		"/Users/user/Dropbox/Web/fe/source/index-2.html.haml",
 		"/Users/user/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
@@ -349,7 +354,6 @@
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_motto.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/nav.scss",
 		"/Users/user/Dropbox/Web/fe/source/css/modulest/_0transitions.scss",
-		"/Users/user/Dropbox/Web/fe/Rakefile",
 		"/Users/user/Dropbox/Web/fe/source/layouts/layout.erb",
 		"/Users/user/Dropbox/Web/fe/source/js/head.js",
 		"/Users/user/Dropbox/Web/fe/build/js/all.js",
@@ -370,11 +374,7 @@
 		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/modules/_nav",
 		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/master/_body.scss",
 		"/Users/user/Dropbox/Web/sethjgre/source/javascripts/alt.js",
-		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/modules/_belief.scss",
-		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/modules/_intro.scss",
-		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/master/motion.scss",
-		"/Users/user/Dropbox/Web/sethjgre/source/manifesto.html.haml",
-		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/master/_grid.scss"
+		"/Users/user/Dropbox/Web/sethjgre/source/stylesheets/modules/_belief.scss"
 	],
 	"find":
 	{
@@ -392,6 +392,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"img",
+			"12",
+			"e-4.",
+			".",
+			"columns",
+			"mns",
+			"h3",
 			";;",
 			"],",
 			"overflow",
@@ -512,14 +519,7 @@
 			".is.centered",
 			"NAME-YOUR-ANIMATION ",
 			"body",
-			"lib",
-			"lbv8",
-			".l-inline.l-margin-left.t-right",
-			"middleman-core",
-			"fo",
-			"ship",
-			"is",
-			"selector"
+			"lib"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -542,89 +542,29 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Gemfile",
+					"file": "source/layouts/_nav-mine.haml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 389,
+						"buffer_size": 723,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								389,
-								389
+								723,
+								723
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": ".devprocess",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 547,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								397,
-								397
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 2,
-					"file": "config.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1537,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1475,
-								1475
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 503.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -632,32 +572,39 @@
 			]
 		},
 		{
+			"sheets":
+			[
+			]
+		},
+		{
 			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 3,
-					"file": "source/css/_settings.scss",
+					"buffer": 1,
+					"file": "source/css/modulest/_nav.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 31410,
+						"buffer_size": 2842,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								832,
-								832
+								367,
+								367
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 65.0,
+						"translation.y": 2.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -730,6 +677,130 @@
 		"selected_items":
 		[
 			[
+				"nav",
+				"source/layouts/_nav-mine.haml"
+			],
+			[
+				"js",
+				"source/js/all.js"
+			],
+			[
+				"in",
+				"source/index.html.haml"
+			],
+			[
+				"kitch",
+				"source/layouts/kitchensink.haml"
+			],
+			[
+				"kitc",
+				"source/kitchensink.html.haml"
+			],
+			[
+				"row",
+				"source/css/modulest/_row.scss"
+			],
+			[
+				"e",
+				"source/eyeexam.html.haml"
+			],
+			[
+				"layout",
+				"source/layouts/layout.haml"
+			],
+			[
+				"modulest",
+				"source/css/modulest/_eyeexam.scss"
+			],
+			[
+				"soul",
+				"source/css/modulest/_soul.scss"
+			],
+			[
+				"intro",
+				"source/css/modulest/_introtext.scss"
+			],
+			[
+				"about",
+				"source/css/modulest/_about.scss"
+			],
+			[
+				"ded",
+				"source/css/modulest/_dedication.scss"
+			],
+			[
+				"sec",
+				"source/css/modulest/_section-background.scss"
+			],
+			[
+				"dedic",
+				"source/dedication.html.haml"
+			],
+			[
+				"de",
+				"source/dedication.html.haml"
+			],
+			[
+				"section",
+				"source/css/modulest/_section-background.scss"
+			],
+			[
+				"secti",
+				"source/css/modulest/_section-splash.scss"
+			],
+			[
+				"splash",
+				"source/css/modulest/_splash-box.scss"
+			],
+			[
+				"inde",
+				"source/index.html.haml"
+			],
+			[
+				"config",
+				"config.rb"
+			],
+			[
+				"nav-",
+				"source/layouts/_nav-mine.haml"
+			],
+			[
+				"project",
+				"source/projects/2013-08-08-projecthumanity.md"
+			],
+			[
+				"cards",
+				"source/layouts/_cards.haml"
+			],
+			[
+				"projec",
+				"source/layouts/project.haml"
+			],
+			[
+				"projet",
+				"source/layouts/projectsingle.haml"
+			],
+			[
+				"nav-min",
+				"source/layouts/_nav-mine.haml"
+			],
+			[
+				"body",
+				"source/css/modulest/_body.scss"
+			],
+			[
+				"c",
+				"config.rb"
+			],
+			[
+				"we",
+				"source/css/modulest/_wedo.scss"
+			],
+			[
+				"projects",
+				"source/css/modulest/_projectsingle.scss"
+			],
+			[
 				"is",
 				"source/css/styleguide/typography/_is.scss"
 			],
@@ -758,22 +829,6 @@
 				"Gemfile.lock"
 			],
 			[
-				"config",
-				"config.rb"
-			],
-			[
-				"nav",
-				"source/layouts/_nav.haml"
-			],
-			[
-				"js",
-				"source/js/all.js"
-			],
-			[
-				"body",
-				"source/css/modulest/_body.scss"
-			],
-			[
 				"pal",
 				"source/css/styleguide/_palette.scss"
 			],
@@ -782,24 +837,12 @@
 				"source/css/app.css.scss"
 			],
 			[
-				"layout",
-				"source/layouts/layout.haml"
-			],
-			[
-				"intro",
-				"source/css/modulest/_introtext.scss"
-			],
-			[
 				"co",
 				"config.rb"
 			],
 			[
 				"ge",
 				"Gemfile"
-			],
-			[
-				"project",
-				"source/projects/2013-08-08-projecthumanity.html.md"
 			],
 			[
 				"auda",
@@ -816,18 +859,6 @@
 			[
 				"blog",
 				"source/layouts/_blogprevnext.haml"
-			],
-			[
-				"in",
-				"source/index.html.haml"
-			],
-			[
-				"soul",
-				"source/soul.html.haml"
-			],
-			[
-				"projec",
-				"source/layouts/project.haml"
 			],
 			[
 				"logo",
@@ -850,10 +881,6 @@
 				"config.rb"
 			],
 			[
-				"cards",
-				"source/css/modulest/_cards.scss"
-			],
-			[
 				"idnex",
 				"source/index.html.haml"
 			],
@@ -868,10 +895,6 @@
 			[
 				"",
 				"config.rb"
-			],
-			[
-				"inde",
-				"source/index.html.haml"
 			],
 			[
 				"proje",
@@ -892,14 +915,6 @@
 			[
 				"typog",
 				"source/css/styleguide/typography/_h.scss"
-			],
-			[
-				"splash",
-				"source/css/modulest/_splash-box.scss"
-			],
-			[
-				"section",
-				"source/css/modulest/_section-splash.scss"
 			],
 			[
 				"stand",
@@ -942,16 +957,8 @@
 				"source/layouts/layout.haml"
 			],
 			[
-				"sec",
-				"source/css/modulest/_section-splash.scss"
-			],
-			[
 				"email",
 				"source/css/modulest/_mailchimp.scss"
-			],
-			[
-				"about",
-				"source/css/modulest/_about.scss"
 			],
 			[
 				"link",
@@ -968,10 +975,6 @@
 			[
 				"aab",
 				"source/about.html.haml"
-			],
-			[
-				"row",
-				"source/css/modulest/_row.scss"
 			],
 			[
 				"blockquote",
@@ -1026,10 +1029,6 @@
 				"source/css/_foundation-modules.scss"
 			],
 			[
-				"c",
-				"source/css/modulest/_cards.scss"
-			],
-			[
 				"foundation",
 				"source/css/_foundation-modules.scss"
 			],
@@ -1066,20 +1065,12 @@
 				"source/css/modulest/_introtext.scss"
 			],
 			[
-				"kitch",
-				"source/css/modulest/_kitchensink.scss"
-			],
-			[
 				"kit",
 				"source/kitchensink.html.haml"
 			],
 			[
 				"kt",
 				"source/layouts/kitchensink.haml"
-			],
-			[
-				"kitc",
-				"source/kitchensink.html.haml"
 			],
 			[
 				"layo",
@@ -1196,50 +1187,6 @@
 			[
 				"animatio",
 				"sethjgre/source/stylesheets/modules/_view-animation.scss"
-			],
-			[
-				"mani",
-				"sethjgre/source/manifesto.html.haml"
-			],
-			[
-				"html",
-				"sethjgre/source/test.html"
-			],
-			[
-				"manf",
-				"sethjgre/source/manifesto.html.haml"
-			],
-			[
-				"all.js",
-				"sethjgre/source/javascripts/all.js"
-			],
-			[
-				"lyaout",
-				"sethjgre/source/layouts/layout.haml"
-			],
-			[
-				"grid",
-				"sethjgre/source/stylesheets/master/_grid.scss"
-			],
-			[
-				"app.scss",
-				"sethjgre/source/stylesheets/app.css.scss"
-			],
-			[
-				"settings",
-				"sethjgre/source/stylesheets/_settings.scss"
-			],
-			[
-				"variables",
-				"sethjgre/source/stylesheets/master/variables.scss"
-			],
-			[
-				"variab",
-				"sethjgre/build/stylesheets/master/variables.css"
-			],
-			[
-				"ind",
-				"sethjgre/source/index.html.haml"
 			]
 		],
 		"width": 0.0

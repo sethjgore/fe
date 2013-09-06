@@ -6,6 +6,10 @@
   background: $gray-light;
 }
 
+.section-background__gray-dark{
+  background: $gray-dark;
+}
+
 .section-background__textured{
   background: image-url('bg-opacity.png') repeat, $gray-light;
 }
