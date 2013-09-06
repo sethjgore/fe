@@ -10,14 +10,13 @@
 }
 
 .introtext__first-line{
-  position: absolute;
   color: $white;
 
 }
 
 .introtext__title{
   color: $white;
-  font-size: 2rem;
+  font-size: 5rem;
   
   @media #{$small}{
       font-size: 15vw;
