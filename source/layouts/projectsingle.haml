@@ -1,17 +1,26 @@
 - wrap_layout :layout do
-  .projectsingle__splash{:style => "background : url('../#{current_page.data.title}/#{current_page.data.splashimage}') center center no-repeat;"}
+  .projectsingle__splash
     .projectsingle__box
       .row
         .small-12.columns
           %h1.projectsingle__title
             = current_page.data.title
-%section.projectsingle__infobar
-  .row
-    .small-3.columns
-      .projectsingle__playbutton
-    .small-9.columns
-      .button.secondary.radius.projectsingle__donate
-        Support this project
+        = partial "layouts/projectsingle-video"
+-#
+  %section.projectsingle__infobar
+    .row
+      .small-3.columns
+      -# 
+        .projectsingle__playbutton
+      .small-9.columns
+        -#
+          .button.secondary.radius.projectsingle__donate
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="WLU8S9D645XFL">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
 %section
   .row
     .small-12.columns
@@ -29,7 +38,6 @@
     .small-12.columns
       .block-branch
       = current_page.data.branch
-
 .section.section-background__textured
   .row
     = partial "layouts/blogprevnext"

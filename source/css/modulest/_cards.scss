@@ -4,25 +4,26 @@
 
 .cards{
 	border-radius: $global-radius;
-	border: 1px $gray-light solid;
+  border: .05em $orange solid;
   overflow: hidden;
   margin-bottom: 1rem;
-  height: 10rem;
-
+  height: 8rem;
+  padding: .2rem;
+  background: $gray-dark;
   @media #{$small}{
-    height: 7rem;
+    height: 5rem;
   }
   
 
   .cards__title, .cards__summary{
-    color: $white;
+    color: $orange;
     @extend .is-text__shadowed;
     @extend .is-text__centered;
   }
 
   .cards__title-wrapper{
     position: relative;
-    top: 1rem;
+    top: .5rem;
   }
 }
 

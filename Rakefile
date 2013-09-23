@@ -1,7 +1,6 @@
-SSH_USER = 'u35775128'
-SSH_HOST = 's93421611.onlinehome.us'
-SSH_DIR  = '/homepages/22/d93421593/htdocs/seth/fe
-/'
+SSH_USER = 'facundoe'
+SSH_HOST = 'ftp.facundoelement.com'
+SSH_DIR  = '/version2/'
 
 desc "Build the website from source"
 task :build do

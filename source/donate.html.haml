@@ -1,9 +1,19 @@
 .row
-  .small-12.columns
+  .small-11.columns
     %h1 Supporting Us
+  .small-1.columns
+    .button.radius.donate-button
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="WLU8S9D645XFL">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
   .small-12.columns
     :markdown
 
       > We can't put it any simpler than this: We need funds for our projects. Please give what you can, today! 
 
-      > If you are interested in hosting a fundraiser, contact us. 
+      > If you are interested in hosting a fundraiser, contact us.
+      
+      > We also accept checks. Please mail all paper donations to PO BOX 1793, Boulder, CO  80306

@@ -1,14 +1,22 @@
+.projectsingle__playtext{
+  &:hover{
+    color: inherit;
+  }
+}
+
 .projectsingle__splash{
   @extend .block__splash;
   position: relative;
-  opacity: .5rem
-  
+  opacity: .5rem;
+  background: rgb(255, 182, 27) !important;
+
   /*
   h1{
     border-bottom: none;
     top: 20rem;
     position: relative;
   }
+
   */
 
 }
@@ -21,7 +29,7 @@
 
 .projectsingle__box{
   position: relative;
-  top: 30vh;
+  top: 10rem;
 }
 .projectsingle__title{
     color: $white;

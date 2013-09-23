@@ -2,9 +2,11 @@
   - blog.articles.each do |article|
     .small-12.large-6.columns
       %a{:href => ".."+article.url}
-        .cards#cards__bg{:style => "background : url('../projects/#{article.title}/#{article.data.splashimage}') no-repeat;"}
+        .cards#cards__bg
+          -#
+            {:style => "background : url('../projects/#{article.title}/#{article.data.splashimage}') no-repeat;"}
           .cards__title-wrapper
-            %h2.cards__title
+            %h3.cards__title
               = article.title
         -#
           %h4.is.centered.cards__summary
