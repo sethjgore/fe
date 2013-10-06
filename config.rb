@@ -4,6 +4,7 @@ require "middleman-smusher"
 # ROUTER IMPLEMENTATION VIA MIDDLEMAN RACKWARE
 page "/",               :layout => :layout
 page "/projects.html",  :layout => :project
+page "/articles.html",  :layout => :articles
 
 #SET DIRECTORIES OF IMG / JS / CSS
 set :css_dir, 'css'
@@ -20,9 +21,11 @@ activate :directory_indexes
 activate :gzip
 activate :minify_html
 
+
+
 #WHEN LAND PROJECT/* DODO? && BLOG PREFERENCES
 activate :blog do |blog|
-
+  blog.name = "projects"
   blog.prefix = "projects"
   blog.permalink = ":title"
   blog.layout = "projectsingle"
@@ -30,6 +33,18 @@ activate :blog do |blog|
   blog.paginate = true
 
 end
+
+#WHEN LAND PROJECT/* DODO? && BLOG PREFERENCES
+activate :blog do |blog|
+  blog.name = "articles"
+  blog.prefix = "articles"
+  blog.permalink = ":title"
+  blog.layout = "articlesingle"
+  blog.default_extension = ".md"
+  blog.paginate = true
+
+end
+
 
 # TURNS ON RELATIVE ASSETS. DO NOT CHANGE
 activate :relative_assets

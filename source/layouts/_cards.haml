@@ -1,5 +1,5 @@
 .row
-  - blog.articles.each do |article|
+  - blog("projects").articles.each do |article|
     .small-12.large-6.columns
       %a{:href => ".."+article.url}
         .cards#cards__bg

@@ -2,7 +2,7 @@
   .small-6.columns
     - prev_article = current_article.previous_article
     - if prev_article
-      %h3 Previous Project
+      %h3 Previous
       %a{ :rel => "prev", :href => prev_article.url }
         %p 
           = prev_article.title
@@ -13,7 +13,7 @@
   .small-6.columns
     - next_article = current_article.next_article
     - if next_article
-      %h3 Next Project
+      %h3 Next
       %a{ :rel => "next", :href => next_article.url }
         %p 
           = next_article.title

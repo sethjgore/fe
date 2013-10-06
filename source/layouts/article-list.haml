@@ -1,0 +1,6 @@
+.row
+  - blog("articles").articles.each do |article|
+    .small-12.large-6.columns
+      %a{:href => ".."+article.url}
+        %h3 
+          = article.title
