@@ -1,8 +1,10 @@
 ---
 title: Transgressing the Object
-date: 2011-10-01 01:01:15
-tags: butterfly-effect, pedagogy, transgressing, 
+date: {}
+tags: "butterfly-effect, pedagogy, transgressing,"
+published: true
 ---
+
 <h2>A Dialogue Between Two Subjects</h2>
 <span style="color: #999999;">ALA &amp; RC : October 2011</span>
 
