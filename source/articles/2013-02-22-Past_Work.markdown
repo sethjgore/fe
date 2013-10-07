@@ -1,8 +1,12 @@
 ---
 title: Past Work
-date: 2013-02-22 03:57:46
-tags: 
+date: {}
+tags: null
+published: true
 ---
+
+Hoo hoo hoo whoo hoo hoo
+
 <h2>Gallaudet: The Film - April 2010</h2>
 <object width="560" height="315" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="http://www.youtube.com/v/VmXtio32gms?version=3&amp;hl=en_US" /><param name="allowfullscreen" value="true" /><embed width="560" height="315" type="application/x-shockwave-flash" src="http://www.youtube.com/v/VmXtio32gms?version=3&amp;hl=en_US" allowFullScreen="true" allowscriptaccess="always" allowfullscreen="true" /></object>
 
